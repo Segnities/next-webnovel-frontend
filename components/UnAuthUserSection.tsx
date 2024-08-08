@@ -1,10 +1,14 @@
 'use client'
 
 import { useMediaQuery } from "@mui/material";
-import { MaterialUISwitch } from "./UI/MaterialUISwitch";
-import { useState } from "react";
+import { IoPerson } from "react-icons/io5";
+import { LuSunMedium } from "react-icons/lu";
+import { HiMoon } from "react-icons/hi2";
 
-export default function UserSection() {
+import { useState } from "react";
+import Link from "next/link";
+
+export default function UnAuthUserSection() {
    const [isDarkMode, setIsDarkMode] = useState(useMediaQuery('(prefers-color-scheme: dark)'));
    const handleToggleSwitch = () => {
       const darkMode = document.body.classList.contains('dark');
@@ -21,11 +25,19 @@ export default function UserSection() {
    }
 
    return (
-      <div className="flex items-center gap-3">
-         <MaterialUISwitch onClick={handleToggleSwitch} checked={isDarkMode} />
-         <button className="bg-blue-300 rounded-md text-white p-2">
-            <span>Вхід | Авторизація</span>
+      <div className="flex items-center lg:gap-6">
+         <button onClick={handleToggleSwitch}>
+            {
+               isDarkMode ? (
+                  <HiMoon className="w-4 h-4"/>
+               ) : (
+                  <LuSunMedium className="w-4 h-4 fill-sky-400/20"/>
+               )
+            }
          </button>
+         <Link href="">
+            <IoPerson className="dark:text-silver text-gunmetal cursor-pointer" />
+         </Link>
       </div>
    );
 }
