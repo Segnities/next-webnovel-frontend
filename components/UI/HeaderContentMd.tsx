@@ -5,7 +5,7 @@ import { RxHamburgerMenu } from "react-icons/rx"
 
 export default function HeaderContentMd() {
    return (
-      <div className="lg:hidden flex items-center justify-between w-full px-8">
+      <div className="lg:hidden flex items-center justify-between w-full h-full px-8 shadow-md">
          <div className="flex flex-col items-center justify-center cursor-pointer">
             <FaBookmark className="text-xl"/>
             <span className="text-sm">Закладки</span>
