@@ -54,7 +54,7 @@ export default function HeaderContentLg() {
                   horizontal: 'right',
                }}
             >
-               <nav aria-label="main mailbox folders">
+               <nav aria-label="news question-answers feedback">
                   <List 
                      sx={{
                         backgroundColor: isDarkThemeState ? '#414549' : '#ffffff', 
