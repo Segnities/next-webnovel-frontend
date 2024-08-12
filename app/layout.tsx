@@ -1,11 +1,9 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import ReduxProvider from "@/components/providers/ReduxProvider";
 import Header from "@/components/Header";
+import ReduxProvider from "@/components/providers/ReduxProvider";
 import ThemeProvider from "@/components/providers/ThemeProvider";
-
-const inter = Inter({ subsets: ["latin"] });
+import ThemeStateProvider from "@/components/providers/ThemeStateProvider";
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "renovellib",
@@ -21,10 +19,10 @@ export default function RootLayout({
     <ReduxProvider>
       <ThemeProvider>
         <html lang="en">
-          <body className={inter.className}>
+          <ThemeStateProvider>
             <Header />
             {children}
-          </body>
+          </ThemeStateProvider>
         </html>
       </ThemeProvider>
     </ReduxProvider>
