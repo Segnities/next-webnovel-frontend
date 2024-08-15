@@ -56,7 +56,8 @@ export default function HeaderContentLg() {
                   horizontal: 'right',
                }}
                sx={{
-                  fontSize: "13px"
+                  fontSize: "13px",
+                  top: "2rem"
                }}
             >
                <nav aria-label="news question-answers feedback">
