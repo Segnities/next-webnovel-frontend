@@ -1,17 +1,19 @@
 'use client'
 
+import { useAppSelector } from "@/store/hooks";
 import { List, ListItem, ListItemButton, ListItemIcon, ListItemText, Popover } from "@mui/material";
 import Link from "next/link";
 import { useState } from "react";
 import { BsThreeDots } from "react-icons/bs";
-import { FaChartLine, FaListUl, FaNewspaper } from "react-icons/fa";
+import { FaFireAlt, FaNewspaper } from "react-icons/fa";
 import { FaQuestion } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import { IoLayers } from "react-icons/io5";
+
 import LogoSection from "../LogoSection";
 import RecentBox from "../RecentBox";
 import SearchBox from "../SearchBox";
 import UnAuthUserSection from "../UnAuthUserSection";
-import { useAppSelector } from "@/store/hooks";
 
 export default function HeaderContentLg() {
    const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
@@ -32,11 +34,11 @@ export default function HeaderContentLg() {
          <LogoSection />
          <div className="flex items-center ml-4 gap-5 mr-6">
             <Link href="" className="flex items-center gap-2">
-               <FaChartLine />
+               <FaFireAlt />
                <p>Популярне</p>
             </Link>
             <Link href="" className="flex items-center gap-2">
-               <FaListUl />
+               <IoLayers />
                <p>Новели</p>
             </Link>
             <SearchBox />
@@ -52,6 +54,10 @@ export default function HeaderContentLg() {
                anchorOrigin={{
                   vertical: 'bottom',
                   horizontal: 'right',
+               }}
+               sx={{
+                  fontSize: "13px",
+                  top: "2rem"
                }}
             >
                <nav aria-label="news question-answers feedback">
