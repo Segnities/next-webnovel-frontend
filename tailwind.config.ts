@@ -21,7 +21,9 @@ const config: Config = {
         "dimGray": "#444444",
         "lightGray": "#f2f2f2",
         "eerieBlack": "#1c1c1c",
-        "ghostWhite": "#F2F2F3"
+        "ghostWhite": "#F2F2F3",
+        "secondary": "#8a8a8e",
+        "primary": "#bfbfbf"
       }
     },
   },
