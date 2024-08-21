@@ -23,7 +23,8 @@ const config: Config = {
         "eerieBlack": "#1c1c1c",
         "ghostWhite": "#F2F2F3",
         "secondary": "#8a8a8e",
-        "primary": "#bfbfbf"
+        "primary": "#bfbfbf",
+        "charcoal": "#252527"
       }
     },
   },
