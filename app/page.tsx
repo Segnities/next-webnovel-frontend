@@ -1,13 +1,32 @@
-import MaterialYouSwiper from "@/components/UI/MaterialYouSwiper";
+import ContinueReading from "@/components/ContinueReading";
+import Header from "@/components/Header";
+import NowReading from "@/components/NowReading";
+import ContainerOffset from "@/components/UI/ContainerOffset";
+import RecentChaptersList from "@/components/UI/RecentChaptersList";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen dark:bg-richBlack bg-ghostWhite">
-      <div className="flex flex-col items-center py-6">
-        <section className="dark:bg-eerieBlack bg-white w-[80vw] rounded-lg p-4">
-          <MaterialYouSwiper />
-        </section>
-      </div>
-    </main>
+    <>
+      <Header />
+      <main className="w-full min-h-screen dark:bg-richBlack bg-ghostWhite">
+        <div className="flex flex-col items-center py-6">
+          <div className="w-[98vw] lg:w-[90vw]">
+            <ContainerOffset>
+              <RecentChaptersList />
+            </ContainerOffset>
+            <div className="mt-6">
+              <ContainerOffset>
+                <ContinueReading />
+              </ContainerOffset>
+            </div>
+            <div className="mt-6">
+              <ContainerOffset>
+                <NowReading/>
+              </ContainerOffset>
+            </div>
+          </div>
+        </div>
+      </main>
+    </>
   );
 }

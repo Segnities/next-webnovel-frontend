@@ -20,7 +20,6 @@ export default function RootLayout({
       <ThemeProvider>
         <html lang="en">
           <ThemeStateProvider>
-            <Header />
             {children}
           </ThemeStateProvider>
         </html>
