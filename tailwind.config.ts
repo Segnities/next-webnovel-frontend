@@ -24,7 +24,8 @@ const config: Config = {
         "ghostWhite": "#F2F2F3",
         "secondary": "#8a8a8e",
         "primary": "#bfbfbf",
-        "charcoal": "#252527"
+        "charcoal": "#252527",
+        "cloudyLavender": "#D9D9DA"
       }
     },
   },

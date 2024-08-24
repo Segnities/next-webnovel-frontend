@@ -1,7 +1,8 @@
 import ContinueReading from "@/components/ContinueReading";
 import Header from "@/components/Header";
+import NowReading from "@/components/NowReading";
 import ContainerOffset from "@/components/UI/ContainerOffset";
-import MaterialListSwiper from "@/components/UI/MaterialListSwiper";
+import RecentChaptersList from "@/components/UI/RecentChaptersList";
 
 export default function Home() {
   return (
@@ -11,11 +12,16 @@ export default function Home() {
         <div className="flex flex-col items-center py-6">
           <div className="w-[98vw] lg:w-[90vw]">
             <ContainerOffset>
-              <MaterialListSwiper />
+              <RecentChaptersList />
             </ContainerOffset>
-            <div className="mt-7">
+            <div className="mt-6">
               <ContainerOffset>
                 <ContinueReading />
+              </ContainerOffset>
+            </div>
+            <div className="mt-6">
+              <ContainerOffset>
+                <NowReading/>
               </ContainerOffset>
             </div>
           </div>
