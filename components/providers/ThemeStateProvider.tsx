@@ -4,11 +4,11 @@ import { useAppSelector } from "@/store/hooks";
 
 export default function ThemeStateProvider({
    children,
- }: Readonly<{
+}: Readonly<{
    children: React.ReactNode;
- }>) {
+}>) {
    const themeColor = useAppSelector(state => state.theme.themeColor)
-   return ( 
+   return (
       <body className={themeColor}>
          {children}
       </body>

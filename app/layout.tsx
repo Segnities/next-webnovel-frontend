@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import ReduxProvider from "@/components/providers/ReduxProvider";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 import ThemeStateProvider from "@/components/providers/ThemeStateProvider";
