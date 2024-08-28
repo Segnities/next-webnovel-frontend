@@ -25,7 +25,10 @@ const config: Config = {
         "secondary": "#8a8a8e",
         "primary": "#bfbfbf",
         "charcoal": "#252527",
-        "cloudyLavender": "#D9D9DA"
+        "cloudyLavender": "#D9D9DA",
+        "bronze": "#CD7F32",
+        "darkGray": "#383838",
+        "darkerGray": "#2e2e2e"
       }
     },
   },
