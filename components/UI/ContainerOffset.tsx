@@ -4,8 +4,8 @@ export default function ContainerOffset({
    children: React.ReactNode;
  }>) {
    return (
-      <section className="dark:bg-eerieBlack bg-white w-full rounded-lg p-4 my-2">
+      <div className="dark:bg-eerieBlack bg-white w-full rounded-lg p-4 my-2">
          {children}
-      </section>
+      </div>
    )
 }

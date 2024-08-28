@@ -4,9 +4,10 @@ import ContinueReading from "@/components/ContinueReading";
 import Header from "@/components/Header";
 import NowReading from "@/components/NowReading";
 import ContainerOffset from "@/components/UI/ContainerOffset";
-import RecentChaptersList from "@/components/UI/RecentChaptersList";
+import RecomendedChaptersList from "@/components/UI/RecomendedChaptersList";
+import RecentlyUpdatedChaptersList from "@/components/RecentlyUpdatedChaptersList";
 
-const montserrat = Montserrat({subsets: ['latin']})
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         <div className="flex flex-col items-center py-6">
           <div className="w-[98vw] lg:w-[90vw]">
             <ContainerOffset>
-              <RecentChaptersList />
+              <RecomendedChaptersList />
             </ContainerOffset>
             <div className="mt-6">
               <ContainerOffset>
@@ -26,8 +27,16 @@ export default function Home() {
             </div>
             <div className="mt-6">
               <ContainerOffset>
-                <NowReading/>
+                <NowReading />
               </ContainerOffset>
+            </div>
+            <div className="mt-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2">
+                <ContainerOffset>
+                  <RecentlyUpdatedChaptersList/>
+                </ContainerOffset>
+                <div></div>
+              </div>
             </div>
           </div>
         </div>

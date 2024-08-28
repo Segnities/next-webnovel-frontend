@@ -10,7 +10,7 @@ import CardItem from "../CardItem";
 
 import 'swiper/css';
 
-export default function RecentChaptersList() {
+export default function RecomendedChaptersList() {
    const isXlScreen = useMediaQuery({ query: '(min-width: 1280px)' });
    const isLgScreen = useMediaQuery({ query: '(min-width: 1024px)' });
    const isMdScreen = useMediaQuery({ query: '(min-width: 768px)' });

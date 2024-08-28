@@ -25,7 +25,7 @@ export default function RatingCard({ idx, el }: Props) {
    }
    return (
       <div className="grid grid-cols-6 items-center mt-3 gap-3">
-         <span className={`${idx < 3 ? 'text-3xl' : "text-xl"} ${idx < 3 ? 'font-semibold' : 'font-normal'} col-span-1`}>{idx + 1}</span>
+         <span className={`${idx < 3 ? 'text-3xl' : "text-xl"} ${idx < 3 ? 'font-semibold' : 'font-normal'} col-span-1 dark:text-silver`}>{idx + 1}</span>
          <div className='col-span-1 relative'>
             <div className="absolute -top-3 -right-3">
               {generateTrophy()}
