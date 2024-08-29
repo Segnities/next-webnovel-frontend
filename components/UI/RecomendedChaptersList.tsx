@@ -23,7 +23,7 @@ export default function RecomendedChaptersList() {
       } else if (isMdScreen) {
          return 4;
       } else {
-         return 2;
+         return 3;
       }
    }
 

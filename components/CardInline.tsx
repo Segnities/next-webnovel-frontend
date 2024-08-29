@@ -28,8 +28,8 @@ export default function itemItem({ item, percent }: Props) {
             }
          />
          < div className="flex flex-col gap-1" >
-            <h3 className="line-clamp-2 leading-tight max-h-14 text-[1rem] lg:text-[0.875rem] font-semibold mt-1 dark:text-primary">{item.title}</h3>
-            <span className="dark:dark:text-primary text-secondarycursor-pointer text-base lg:text-xs">Глава {item.lastChapter} - {percent}%</span>
+            <h3 className="line-clamp-2 leading-tight max-h-14 text-[0.915rem] lg:text-[0.875rem] font-semibold mt-1 dark:text-primary">{item.title}</h3>
+            <span className="dark:dark:text-primary text-secondary cursor-pointer text-xs lg:text-sm">Глава {item.lastChapter} - {percent}%</span>
             <div className="max-w-[95%]">
                <MUIBorderLinearProgress variant="determinate" value={percent} />
             </div>

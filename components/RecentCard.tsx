@@ -29,14 +29,14 @@ export default function RecentCard({el}: Props) {
                </div>
             </div>
             <div>
-               <h3 className='dark:text-silver font-medium text-base lg:text-lg'>{el.title}</h3>
+               <h3 className='dark:text-silver font-medium text-sm lg:text-base'>{el.title}</h3>
                <p className='text-sm lg:text-base dark:text-silver'>
                   {el.latestChapterNum}
-                  <span className='text-sm dark:text-secondary'>
+                  <span className='text-xs dark:text-secondary'>
                      {el.chaptersNum === 1 ? el.latestChapterTitle : ` + ще ${el.chaptersNum} розділи`}
                   </span>
                </p>
-               <p className='text-sm dark:text-secondary'>{el.country}</p>
+               <p className='text-xs dark:text-secondary'>{el.country}</p>
                <span className='text-xs dark:text-secondary'>{el.latestChaptersTime}</span>
             </div>
          </div>

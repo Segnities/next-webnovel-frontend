@@ -7,7 +7,7 @@ import RatingCard from './RaitingCard';
 export default function NowReading() {
    return (
       <section>
-         <h2 className='text-xl font-bold dark:text-silver'>
+         <h2 className='text-xl font-medium dark:text-silver'>
             Зараз читають <span className="ml-2"><ArrowForwardIcon /></span>
          </h2>
          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-1 mt-6'>
