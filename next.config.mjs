@@ -5,6 +5,10 @@ const nextConfig = {
          {
             protocol: "https",
             hostname: "cover.imgslib.link"
+         },
+         {
+            protocol: "https",
+            hostname: "cover.imgslib.com"
          }
       ]
    }
