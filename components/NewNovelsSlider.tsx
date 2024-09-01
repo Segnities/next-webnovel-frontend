@@ -6,24 +6,31 @@ import { A11y, Autoplay, Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { v4 as uuidv4 } from "uuid";
 
-import CardItem from "../CardItem";
+import CardItem from "./CardItem";
 
 import 'swiper/css';
 
-export default function RecomendedChaptersList() {
+interface Props {
+   slidesPerViewDefault: number;
+}
+
+
+export default function NewNovelsSlider({
+   slidesPerViewDefault
+}: Props) {
    const isXlScreen = useMediaQuery({ query: '(min-width: 1280px)' });
    const isLgScreen = useMediaQuery({ query: '(min-width: 1024px)' });
    const isMdScreen = useMediaQuery({ query: '(min-width: 768px)' });
 
    const getSlidesPerView = () => {
       if (isXlScreen) {
-         return 8;
+         return slidesPerViewDefault;
       } else if (isLgScreen) {
-         return 6;
+         return slidesPerViewDefault - 2;
       } else if (isMdScreen) {
-         return 4;
+         return slidesPerViewDefault + 3;
       } else {
-         return 3;
+         return 6;
       }
    }
 
@@ -38,12 +45,12 @@ export default function RecomendedChaptersList() {
          autoplay={{ delay: 4500 }}
       >
          {
-            recentSlider.map(item => (
+            recentSlider.slice(0, 8).map(item => (
                <SwiperSlide key={uuidv4()}>
-                  <CardItem item={item}/>
+                  <CardItem item={item} />
                </SwiperSlide>
             ))
          }
       </Swiper>
-   );
+   )
 }
