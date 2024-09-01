@@ -4,15 +4,15 @@ import ContinueReading from "@/components/ContinueReading";
 import Header from "@/components/Header";
 import NowReading from "@/components/NowReading";
 import ContainerOffset from "@/components/UI/ContainerOffset";
-import RecomendedChaptersList from "@/components/UI/RecomendedChaptersList";
+import RecommendedNovelsSlider from "@/components/RecommendedNovelsSlider";
 import RecentlyUpdatedChaptersList from "@/components/RecentlyUpdatedChaptersList";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import NewsList from "@/components/NewsList";
 import LatestReviewsList from "@/components/LatestReviewsList";
-
+import NewNovelsSlider from "@/components/NewNovelsSlider";
+import Footer from "@/components/UI/Footer";
 
 const montserrat = Montserrat({ subsets: ['latin'] })
-
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         <div className="flex flex-col items-center py-6">
           <div className="w-[98vw] lg:w-[90vw]">
             <ContainerOffset>
-              <RecomendedChaptersList />
+              <RecommendedNovelsSlider slidesPerViewDefault={8} />
             </ContainerOffset>
             <div className="mt-6">
               <ContainerOffset>
@@ -50,12 +50,19 @@ export default function Home() {
                     <h2 className="font-medium text-base dark:text-silver">Остані відгуки  <span className="ml-2 text-sm"><ArrowForwardIcon /></span></h2>
                     <LatestReviewsList />
                   </section>
+                  <section>
+                    <h2 className="font-medium text-base dark:text-silver">Новинки  <span className="ml-2 text-sm"><ArrowForwardIcon /></span></h2>
+                    <ContainerOffset>
+                      <NewNovelsSlider slidesPerViewDefault={4} />
+                    </ContainerOffset>
+                  </section>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </main>
+      <Footer/>
     </>
   );
 }
