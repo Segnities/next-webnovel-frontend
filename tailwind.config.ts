@@ -29,7 +29,12 @@ const config: Config = {
         "bronze": "#CD7F32",
         "darkGray": "#383838",
         "darkerGray": "#2e2e2e"
-      }
+      },
+      gridTemplateColumns: {
+        "14": "repeat(14, minmax(0, 1fr))",
+        "16": "repeat(16, minmax(0, 1fr))",
+        "18": "repeat(18, minmax(0, 1fr))",
+      },
     },
   },
   plugins: [],
