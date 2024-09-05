@@ -4,12 +4,12 @@ import { useState } from "react";
 import { GoSortDesc } from "react-icons/go";
 import { FaSortDown } from "react-icons/fa";
 import Divider from '@mui/material/Divider';
+import Radio from '@mui/material/Radio';
 import MenuList from '@mui/material/MenuList';
 import MenuItem from '@mui/material/MenuItem';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import Typography from '@mui/material/Typography';
-import { Popper, RadioGroup } from "@mui/material";
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Popper from "@mui/material/Popper";
+import RadioGroup from "@mui/material/RadioGroup";
 
 const mainSortingOptions = [
    "За спаданням",
@@ -40,7 +40,7 @@ export default function SortingSelector() {
    return (
       <div>
          <button
-            className="cursor-pointer flex items-center justify-between min-w-48 relative text-sm px-4 py-[2px] border rounded-sm"
+            className="dark:text-silver cursor-pointer flex items-center justify-between min-w-48 relative text-sm px-4 py-[2px] border rounded-sm"
             aria-describedby={id}
             type="button"
             onClick={handleClick}
@@ -49,16 +49,44 @@ export default function SortingSelector() {
             <span>{selectedSortOption}</span>
             <span><FaSortDown size={10} /></span>
          </button>
-         <Popper sx={{ with: "320px" }} open>
-            <RadioGroup
-               aria-labelledby="sorting-radio-buttons-group-label"
-               defaultValue={selectedSortOption}
-               name="sorting-options-group"
-            >
-               {
-                  
-               }
-            </RadioGroup>
+         <Popper
+            sx={{ with: "300px", backgroundColor: "white", top: "8px" }}
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            className="z-20"
+         >
+            <div className="dark:bg-eerieBlack bg-white">
+               <RadioGroup
+                  aria-labelledby="sorting-radio-buttons-group-label"
+                  defaultValue={selectedSortOption}
+                  name="sorting-options-group"
+               >
+                  <MenuList dense>
+                     {
+                        sortingOptions.map(el => (
+                           <MenuItem key={el}>
+                              <FormControlLabel value={el} control={<Radio className=""/>} label={el} />
+                           </MenuItem>
+                        ))
+                     }
+                  </MenuList>
+               </RadioGroup>
+               <Divider variant="fullWidth" />
+               <RadioGroup
+                  aria-labelledby="main-sorting-radio-buttons-group-label"
+                  defaultValue={mainSortOption}
+                  name="main-sorting-options-group"
+               >
+                  {
+                     mainSortingOptions.map(el => (
+                        <MenuItem key={el}>
+                           <FormControlLabel value={el} control={<Radio />} label={el} />
+                        </MenuItem>
+                     ))
+                  }
+               </RadioGroup>
+            </div>
          </Popper>
       </div>
    )
