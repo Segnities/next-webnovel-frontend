@@ -1,0 +1,2669 @@
+[
+   {
+       "id": 1,
+       "title": "Благословение небожителей (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/tianguan-cifu/cover/4f2dc727-c2e7-4aab-935b-526e53d64427.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 2,
+       "title": "Точка зрения Всеведущего читателя (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/omniscient-readers-viewpoint-novel/cover/e98f9da2-81c5-4a92-9870-6535022d0de7.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 3,
+       "title": "Ничтожество из графского семейства (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/trash-of-the-counts-family-novel/cover/lX2f1zQQG6Eu_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 4,
+       "title": "Смерть — единственный конец для злодейки (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/death-is-the-only-ending-for-the-villain-novel-/cover/4a4681fa-7f17-46af-acd5-41712f092606.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 5,
+       "title": "Реинкарнация безработного: История о приключениях в другом мире (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/mushoku-tensei/cover/50679882-4259-459e-a283-c41eb63a3d5c.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 6,
+       "title": "Поднятие уровня в одиночку (веб-роман) (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/solo-leveling/cover/ENpNDMytyJ8B_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 7,
+       "title": "Добро пожаловать в класс превосходства (LN) (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-novel/cover/736bdd77-c534-442a-945d-55b8f3f0ff7d.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 8,
+       "title": "Повелитель тайн (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/lord-of-the-mysteries/cover/nba6BwCT9zw0_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 9,
+       "title": "Начало после конца (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/beginning-after-the-end-novel/cover/06cf9493-16dc-425e-8c2d-87b1b1a99f8d.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 10,
+       "title": "Маленький Гриб (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/little-mushroom/cover/DVgcO7fF3qsz_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 11,
+       "title": "Легендарный механик (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/the-legendary-mechanic/cover/bZgKSOiGym0x_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 12,
+       "title": "Ублюдок FFF-ранга (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/fff-class-trashero-novel/cover/wj4FW2qxvwr5_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 13,
+       "title": "Мать Ученья (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/mother-of-learning/cover/r2FLINcXKosD_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 14,
+       "title": "Злодей хочет жить (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/agdang-eun-salgo-sipda-novel/cover/9PMO5pqz1DPM_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 15,
+       "title": "Бессмертный Пьяница (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/immortal-drunkard/cover/ggQQ22q7nOXB_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 16,
+       "title": "Калейдоскоп смерти (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/kaleidoscope-of-death-realnovel/cover/q42NIN9GNryq_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 17,
+       "title": "Верховный Маг (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/supreme-magus/cover/bIc29e1NOsg2_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 18,
+       "title": "Под дубом (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/under-the-oak-tree-kr/cover/6MhKrzZq0oU4_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 19,
+       "title": "Власть книжного червя (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/ascendance-of-a-bookworm-novel/cover/7866b678-8891-4e27-8faf-f5ac3614ed17.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 20,
+       "title": "Второй брак императрицы (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/jaehon-hwanghu/cover/232e62ef-88c0-4b42-90fd-7cc2dcbc13a5.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 21,
+       "title": "Да будет благословен этот прекрасный мир! (LN) (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/kono-subarashii-sekai-ni-shukufuku-wo/cover/20GGYCLqFTXa_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 22,
+       "title": "Охотник-самоубийца SSS-класса (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/sss-class-suicide-hunter/cover/ubtl0hPEBSVT_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 23,
+       "title": "Да, я паук, и что с того? (LN) (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/kumo-desu-ga-nani-kaln/cover/V1fKYV2sShK7_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 24,
+       "title": "Холод всегда мне нравился больше (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/xolod-vsegda-mne-byl-po-duse/cover/3aoE7HIlu4on_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 25,
+       "title": "Реинкарнация безработного (LN) (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/mushoku-tensei-isekai-ittara-honki-dasu-ln/cover/e8c22adc-3bc3-49be-b33a-619603d143f3.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 26,
+       "title": "Ангел по соседству (Веб-Новелла) (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/the-angel-next-door-spoils-me-rotten/cover/5iZl7GQ19AUw_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 27,
+       "title": "Вступительный экзамен в глобальный университет (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/global-university-entrance-examination/cover/27738926-646e-418a-85a6-e95bbb7d7d9d.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 28,
+       "title": "Преподобный Гу (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/reverend-insanity/cover/qlEz3bAe5fI4_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 29,
+       "title": "Монолог фармацевта (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/kusuriya-no-hitorigoto-ln-novel/cover/207f347c-b21e-495a-80b4-8c153d753418.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 30,
+       "title": "Чернокнижник Мира Магов (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/wujie-shushi-novel/cover/0lQ33WsBcn2L_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 31,
+       "title": "Я вовсе не слуга Демонического Бога (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/im-really-not-the-demon-gods-lackey/cover/CXqyTEHA6kbE_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 32,
+       "title": "Разве быть  порочной девочкой не лучше? (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/isnt-being-a-wicked-woman-much-better-novel/cover/XdpTA3znYMgb_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 33,
+       "title": "Возрождение кинозвезды (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/rebirth-of-a-movie-star/cover/FHB2EhiAvvfy_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 34,
+       "title": "Теневой раб (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/shadow-slave/cover/bNDdhfdelnpF_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 35,
+       "title": "Однажды я стала принцессой (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/suddenly-became-a-princess-one-day-novel/cover/7177fc62-9f5d-4844-83cc-c49236c3f859.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 36,
+       "title": "Апофеоз Демона – История об Эволюции Монстра (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/akuma-ha-ikai-de-kami-tonaru-jingai-shinka-novel/cover/EfHwvrLa0PX2_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 37,
+       "title": "Великий из Бродячих псов: Неизвестная история создания детективного агентства (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/bungo-stray-dogs-the-untold-origins-of-the-detective-agency/cover/4e0b89c8-a92a-4f38-bfeb-31bf03e2701c.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 38,
+       "title": "О неуёмной девчонке и её постоянном соперничестве со мной, перерождённым (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/about-the-reckless-girl-who-kept-challenging-a-reborn-man-like-me/cover/8ae62bdf-d17c-402a-9284-84f5969a46c4.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 39,
+       "title": "Несущий шторм (Великий из бродячих псов) (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/storm-bringer/cover/sshl1wdF7dWS_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 40,
+       "title": "После того как я стал запасным колесом, я привлек как героя, так и злодея (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/after-becoming-a-spare-tyre-the-villian-and-male-lead-became-interested-in-me/cover/6IzljXnJzY3C_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 41,
+       "title": "Игрок, который вернулся спустя 10 000 лет (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/player-who-returned-10000-years-later/cover/5mehLXKKm1vH_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 42,
+       "title": "Да, я паук, и что же? (WN) (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/kumo-desu-ga-nani-ka-novel/cover/R3L3yQV7dkF0_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 43,
+       "title": "Как защитить старшего брата главной героини (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/yeoju-ingongui-oppaleul-jikineun-bangbeob/cover/nKuLB74wYtok_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 44,
+       "title": "Мой муж страдает неизлечимой болезнью (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/my-husband-is-suffering-from-a-terminal-illness/cover/oHs49PBR2pmc_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 45,
+       "title": "S-ранги, которых я воспитал (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/the-s-classes-that-i-raised/cover/6647e3f9-39b6-4274-bd30-c760e2f25e08.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 46,
+       "title": "Хризалида (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/chrysalis/cover/ylympJngoAnR_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 47,
+       "title": "Маг, поедающий книги (Новелла)",
+       "rate": "8.7",
+       "img": "https://cover.imglib.info/uploads/cover/the-book-eating-magician-novel/cover/lc2bUrL8gjP4_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 48,
+       "title": "Дерзай! (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/saye/cover/sexMj1Gu427e_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 49,
+       "title": "О моём перерождении в слизь (LN)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/tensei-shitara-slime-datta-ken-light-novel/cover/9d9ec4aa-99c3-4924-a698-1e484f5ae202.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 50,
+       "title": "Культивация Онлайн (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/cultivation-online/cover/yzoPWWlUogDW_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 51,
+       "title": "Ранкер, который живет второй раз (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/second-life-ranker-novel/cover/maOiTWXUOaOw_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 52,
+       "title": "Мастер-охотник Kей (Новелла)",
+       "rate": "9",
+       "img": "https://cover.imglib.info/uploads/cover/prime-hunter/cover/EBDMNHW0GDAl_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 53,
+       "title": "Три дня счастья (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/mikkakan-no-koufuku/cover/LTO4WYg6enfm_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 54,
+       "title": "Кровавый Чернокнижник: Партнёр Суккуба в Апокалипсисе (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/krovavyi-cernokniznik-partnersa-sukkub-vo-vremya-apokalipsisa/cover/1pl2KoNRhCN5_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 55,
+       "title": "Мой дом ужасов (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/my-house-of-horrors/cover/d0WJKRkKHu9X_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 56,
+       "title": "Достопочтенный Дьявол тоже хочет знать (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/mozun-ye-xiang-zhidao/cover/98jFSZmCjyQp_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 57,
+       "title": "Лишний в своей же Истории (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/the-novels-extra/cover/cover_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 58,
+       "title": "Хищный брак (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/predatory-marriage/cover/594055ed-9fb3-446e-843c-5d4c98727291.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 59,
+       "title": "Далёкие странники (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/tian-ya-ke-novel1/cover/RADJZeUmgGMl_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 60,
+       "title": "Возрождение Наноманта — я стала Снежной Девочкой? (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/nanomancer-reborn-ive-become-a-snow-girl/cover/MOLCyemUTByh_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 61,
+       "title": "Ничтожество из графского семейства. Часть 2. Законы Охоты (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/pekchakkaii-manna-mweota/cover/plQ8F6RZlLbc_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 62,
+       "title": "Младший сын мечника (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/the-youngest-son-of-a-swordsman/cover/dtkY0PHNsENI_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 63,
+       "title": "Рай монстров (Новелла)",
+       "rate": "8.7",
+       "img": "https://cover.imglib.info/uploads/cover/monster-paradise/cover/uOhL9rwxo1ZR_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 64,
+       "title": "Я стал Богом в игре ужасов (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/i-became-a-god-in-a-horror-game/cover/CiwUQT3IcSsP_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 65,
+       "title": "Я стал Повелителем Демонов и создал подземелье, чтобы проводить время с девушками-монстрами (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/mao-ni-nattanode-danjon-zo-tte-jingaimusume-to-honobono-suru-kyu-dai-jiyu-ni-kurashitai-mao-mokushiroku/cover/0b6ca0db-ce5b-4868-b676-e4e0f5bc7eb4.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 66,
+       "title": "Тысячи осеней (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/qianqiu/cover/Ec0OFCVKP327_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 67,
+       "title": "Возрождение Злобной Императрицы из Военной Династии (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/the-rebirth-of-the-malicious-empress-of-military-lineage/cover/iYPQXsSssQwG_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 68,
+       "title": "Цикл Неизбежности (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/lord-of-the-mysteries-2/cover/D3MaHZQpuHVO_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 69,
+       "title": "Во всеоружии (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/overgeared/cover/sIOCt3PVN05M_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 70,
+       "title": "Освободите эту Ведьму (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/release-that-witch-novel/cover/uTTbQvZ6rNV8_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 71,
+       "title": "Даже государственный служащий может видеть сладкие сны (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/bunkan-wa-yasashii-yume-wo-teniireru/cover/feb34ca4-a1ad-4012-adfe-0367fd515c0a.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 72,
+       "title": "О моем перерождении в бессмертного (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/o-moem-pererozdenii-v-bessmertnogo/cover/rnYzTXzc6UX9_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 73,
+       "title": "Великий из Бродячих Псов: Дазай и Чуя, 15 лет (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/jugo-dazai-and-chuuya-bungou-stray-dogs/cover/keU55cpA7ojs_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 74,
+       "title": "Сказания о Демонах и Богах (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/yao-shen-jii/cover/DKPP6ESiMLsx_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 75,
+       "title": "Большие боссы - не то, чего я ожидал после того, как переместился в книгу (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/the-big-bosses-are-not-what-i-expected-after-i-transmigrated-into-a-book/cover/dVnP4lDtoDcJ_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 76,
+       "title": "Спасти прекрасного и трагического героя (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/save-the-beautiful-and-tragic-hero/cover/TpWje2jOaEl2_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 77,
+       "title": "Неужели искать встречи в подземелье — неправильно? (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/cover/jXmjgv2mOxxu_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 78,
+       "title": "Розовая пора моей школьной жизни сплошной обман (LN) (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/yahari-ore-no-seishun-rabukome-wa-machigatte-iru-novel/cover/FiUeKcN0I0Et_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 79,
+       "title": "Не удалось бросить злодея (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/failed-to-abandon-the-villain/cover/5SZ2XfusVM6y_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 80,
+       "title": "Рифтан (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/riftans-pov/cover/0fb6038f-5800-43d3-9a7d-84f2bc1a3eef.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 81,
+       "title": "Выживая в игре за варвара (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/surviving-the-game-as-a-barbarian/cover/46f2a5b3-d7f2-439d-a6a0-0ea677ffc25c.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 82,
+       "title": "О моём перерождении в слизь (WN) (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/tensei-shitara-slime-datta-ken-novel/cover/vHwZRVc6AX49_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 83,
+       "title": "Я всего лишь мачеха, но моя дочь — просто прелесть! (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/gyemo-inde-ttal-i-neomu-gwiyeowo-novel/cover/oEurAeGRVKuu_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 84,
+       "title": "Проза бродячих псов: Осаму Дадзай и черные дни (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/bungou-stray-dogs-dazai-osamu-and-the-dark-era/cover/SKtkBAdWLEfj_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 85,
+       "title": "Великий из бродячих псов: День, когда я подобрал Дазая (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/the-day-i-picked-up-dazai/cover/1RSqhFJllwy4_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 86,
+       "title": "Если я не дебютирую, я подхвачу смертельную болезнь (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/if-i-cant-debut-ill-catch-a-disease-thatll-make-me-die/cover/QcnkpIgy226p_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 87,
+       "title": "Мир отомэ-игр - это тяжелый мир для мобов (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/otome-ga-world-is-a-tough-world-for-mob-novel/cover/izp34N3OGpX9_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 88,
+       "title": "Мечник из другого мира (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/mecnik-iz-drugogo-mira/cover/z9gCVbL0TqXv_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 89,
+       "title": "Нет игры — нет жизни (LN) (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/no-game-no-life-novel/cover/2d57c5be-b718-42ab-a44f-65208e8b9a56.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 90,
+       "title": "Моё тело кем-то одержимо (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/my-body-has-been-possessed-by-someone/cover/c5efee80-e618-4061-a87f-aa755899dd79.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 91,
+       "title": "Как спасти главного злодея (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/chuanyue-cheng-fanpai-yao-the-huoming/cover/hjP10DFmKi27_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 92,
+       "title": "Идеальное Прохождение (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/the-perfect-run/cover/emGDnYo4H3K2_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 93,
+       "title": "Восхождение в тени! (WN) (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/hikage-de-chikara-o-hikage-de-no-shihai/cover/83f19254-7b9c-48f9-a776-f2422a489e77.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 94,
+       "title": "Аватар Короля (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/quan-zhi-gao-shou-novel/cover/2GKS1TmdibaD_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 95,
+       "title": "Люсия (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/lyusiya/cover/e7d847e9-0c21-48ca-925a-638c0a3ae8f6.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 96,
+       "title": "Превращение друга детства из пушечного мяса в покорителя сердец (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/transmigrating-into-the-heartthrobs-cannon-fodder-childhood-friend/cover/ANeysLeFepPy_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 97,
+       "title": "Первобытный охотник (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/the-primal-hunter/cover/bed04a69-b9d0-455e-a48d-019354b46988.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 98,
+       "title": "Восхождение в тени! (LN) (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/kage-no-jitsuryokusha-ni-naritakuteln/cover/838c8669-4beb-4d63-95b2-0f3645384518.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 99,
+       "title": "Иногда Аля внезапно кокетничает по-русски",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/tokidoki-bosotto-roshia-go-de-dereru-tonari-no-arya-san/cover/zOe811ciKKqK_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 100,
+       "title": "Мой возлюбленный угнетатель (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/my-beloved-oppressor/cover/4e9b14e4-a15d-437d-bc09-632e6356ffd6.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 101,
+       "title": "Этот брак в любом случае обречён на провал (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/this-marriage-is-bound-to-fail-anyway/cover/z73eSZQI8RKO_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 102,
+       "title": "Я не хочу этого перевоплощения (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/ileon-hwansaeng-eun-wonchi-anh-a/cover/xnV1TowTyXa3_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 103,
+       "title": "Разврат четвертого принца (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/fourth-princes-debauchery/cover/16fCFtc5kLCE_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 104,
+       "title": "Святая, удочеренная Великим Герцогом (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/a-saint-who-was-adopted-by-the-grand-duke/cover/0d325c88-8204-43bb-a433-80ea5c9613ca.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 105,
+       "title": "Проза бродячих псов: Испытание Осаму Дадзая (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/bungo-stray-dogs-dazai-osamu-no-nyusha-shiken/cover/pLBf9HUUqEMN_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 106,
+       "title": "Первым делом спрячем моего младшего брата (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/first-of-all-lets-hide-my-younger-brother-novel/cover/LiqWi6cCQIfL_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 107,
+       "title": "Я стану хозяйкой этой жизни (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/in-this-life-i-will-be-the-lord/cover/c5bb6efa-4e2d-4597-9c23-72576c399d95.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 108,
+       "title": "Порча (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/taint/cover/HxuThojBhHYJ_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 109,
+       "title": "Моя Вампирская Система (Новелла)",
+       "rate": "8.4",
+       "img": "https://cover.imglib.info/uploads/cover/my-vampire-system/cover/Oih4NFPLQ1X3_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 110,
+       "title": "Великий из Бродячих Псов: Зверь (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/beast-white-akutagawa-black-atsushi/cover/AirATCmhKNHu_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 111,
+       "title": "Перерожденный в мир Наруто с Тенсейганом (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/reborn-into-naruto-world-with-tenseigan/cover/GCLvXmH4iEEI_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 112,
+       "title": "Ангел по соседству балует меня (Лайт-Новелла) (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/otonari-no-tenshi-sama-ni-itsu-no-ma-ni-ka-dame-ningen-ni-sareteita-ken-wn/cover/FGPNnPsfKXbu_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 113,
+       "title": "После перемещения в книгу я усыновил злодея (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/after-being-transported-into-a-book-i-adopted-the-villain/cover/nOC7yLHz5KFn_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 114,
+       "title": "Ты ошибся домом, злодей (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/youve-got-the-wrong-house-villain-kr/cover/K7Ck4rjhoIzn_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 115,
+       "title": "Я – бывший герой, оказался в игре для взрослых. (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/inside-a-ntr-game-as-a-former-hero/cover/mtNRBHgqUUGl_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 116,
+       "title": "Легендарный Лунный Скульптор (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/legendary-moonlight-sculptor-novel/cover/a9XP5CLfrycK_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 117,
+       "title": "Первый Порядок (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/the-first-order-novel/cover/cover_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 118,
+       "title": "Поднятие уровня в одиночку: Рагнарёк (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/na-honjaman-level-up-ragnarok-web-novel-novel/cover/cdf178ef-e962-4729-8eca-c4a66b63169e.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 119,
+       "title": "Папа, я не выйду замуж! (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/sinbunim-gyeolhonhago-sipji-anh-ayo/cover/FyCRZCh9vvkC_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 120,
+       "title": "Пустая Шкатулка и Нулевая Мария (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/utsuro-no-hako-to-zero-no-maria-novel/cover/aZleKr2otomZ_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 121,
+       "title": "Ван Пис:  Штормовой Клинок (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/van-pis-stormovoi-klinok/cover/6A2W76vtKCVr_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 122,
+       "title": "Сказки для злодеев (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/a-fairy-tales-for-the-villains/cover/f07a7e42-e492-4e99-af38-8bc9ab4ccd35.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 123,
+       "title": "Супруга маршала: пушечное мясо (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/marshals-cannon-fodder-spouse/cover/Xfrb9p0m4bp6_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 124,
+       "title": "Каждый возвращается домой (Новелла)",
+       "rate": "8.5",
+       "img": "https://cover.imglib.info/uploads/cover/everyone-else-is-a-returnee/cover/0cmapR3vdrfv_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 125,
+       "title": "Гримгар Пепла и Иллюзий (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/hai-to-gensou-no-gurimugaru/cover/ad9f2785-47bc-4b90-9194-26bb6dfcb06a.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 126,
+       "title": "Возрождение злой свекрови (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/rebirth-of-the-evil-mother-in-law/cover/lGC6vLTGlxNX_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 127,
+       "title": "Чёртова Реинкарнация (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/bil-eomeog-eul-hwansaeng/cover/OWHyS3U7vMRj_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 128,
+       "title": "Злодейка, персонаж второго плана, растит булочку (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/the-villainess-female-supporting-character-raising-her-bun/cover/yzYd5h5ayCPJ_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 129,
+       "title": "Я стала младшей сестрой героя BL вебтуна с трагичным концом (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/i-became-the-younger-sister-of-a-regretful-obsessive-male-lead/cover/eJlb9KPKal82_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 130,
+       "title": "Мир-доппельгенгер (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/mir-doppelgenger/cover/s4190uoCP3uV_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 131,
+       "title": "Астральный Апостол (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/star-world-apostle/cover/U0FwIJuB6RAu_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 132,
+       "title": "Вайолет Эвергарден (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/violet-evergarden-novel/cover/eS8s0RCZus3v_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 133,
+       "title": "Военная хроника маленькой девочки  (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/youjo-senkii/cover/LQk5phqb7ssv_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 134,
+       "title": "Сказание о Хольмствейне (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/xolmstvein-novel/cover/1hF6ISe5smWl_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 135,
+       "title": "Хвала Орку! (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/youre-an-orc-yet-youre-still-praiseworthy/cover/fKXO22zavqVK_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 136,
+       "title": "Исполняя мои похотливые фантазии (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/fulfilling-my-lustful-fantasies/cover/h6dptRtu6T47_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 137,
+       "title": "Э? Я – Брат Наруто?! (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/e-ya-brat-naruto/cover/twWBVCfvEMk4_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 138,
+       "title": "Прорыв с Запретным Мастером (Новелла)",
+       "rate": "9",
+       "img": "https://cover.imglib.info/uploads/cover/breakthrough-with-the-forbidden-master/cover/PMby3sWNOwTo_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 139,
+       "title": "Сирена. Злодей и я стали семьёй по контракту (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/becoming-the-villains-family/cover/5a8bba45-6067-4e3e-8017-0e903096ad8c.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 140,
+       "title": "Возродиться вместе с заклятым врагом в день свадьбы (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/cung-tuc-dich-ket-hon-cung-ngay-cung-nhau-trong-sinh/cover/AyItvyzqDa5Y_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 141,
+       "title": "Быть сердцеедом в фильме ужасов (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/chengwei-kongbu-dianying-zhong-de-shangxin-ren/cover/hg3CeuxctSYo_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 142,
+       "title": "Туман (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/mist/cover/cC8GNIDI2PL8_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 143,
+       "title": "Великий из бродячих псов: 55 минут (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/bungou-stray-dogs-55-minutes-novel/cover/3ctXOEMypm9H_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 144,
+       "title": "Приключения Бога (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/priklyucheniya-boga/cover/mcm4okeCYg8Q_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 145,
+       "title": "Слава Королю! (Новелла)",
+       "rate": "8.5",
+       "img": "https://cover.imglib.info/uploads/cover/Hail_the_King-novel/cover/fxiEHxHjZKNu_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 146,
+       "title": "Меня похитил безумный герцог (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/michin-gongjag-ege-nabchi-danghaessda/cover/2Yyhk1pEpy22_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 147,
+       "title": "Реинкарнация Безработного. Избыточность (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/mushoku-tensei-dasokuhen/cover/cDc78pbhYP1P_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 148,
+       "title": "Зять Дьявола (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/devils-son-in-law/cover/JtKwyYfBnULi_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 149,
+       "title": "Как переманить мужа на свою сторону (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/nampyeon-eul-nae-pyeon-eulo-mandeuneun-bangbeoob/cover/876a7c3b-ea4c-47c1-8254-19cd8f8bfc76.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 150,
+       "title": "Я получил ложную должность в Академии (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/akademie-wijangchwieobdanghaessda/cover/4ad2c6d1-54f9-4471-a572-fefe65240098.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 151,
+       "title": "В мире Наруто со способностью контролировать время (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/naruto-time-control/cover/JDH9YmeE2W_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 152,
+       "title": "Я не умру сегодня из-за тебя (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/kimi-no-sei-de-kyo-mo-shinenai/cover/LEWwFogxt6Oz_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 153,
+       "title": "Почему главный герой решил побороться за мое сердце? (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/zhujiao-gong-shou-zenme-wei-wo-da-qilaile/cover/qz743QsKAO3h_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 154,
+       "title": "Реинкарнация сестёр: Путь войн и спокойствия (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/reinkarnaciya-sestyor-put-voin-i-spokoistviya-novella/cover/d3555a9c-5a57-4b13-9319-5c39f9d15322.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 155,
+       "title": "Почему я должен перестать быть злодеем? (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/why-should-i-stop-being-a-villain/cover/myV62HQIgY1e_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 156,
+       "title": "Магия вернувшегося должна быть особенной (WN)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/a-returners-magic-should-be-special/cover/PZF90Ki2lcFQ_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 157,
+       "title": "Я не хочу быть сводницей (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/i-dont-want-to-be-an-ojakgyo/cover/maB7snpkom_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 158,
+       "title": "Встречайся с супермилой мной! (LN) (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/tottemo-kawaii-watashi-to-tsukiatteyo-ln/cover/mVX8nODV5Yzn_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 159,
+       "title": "Моя исцеляющая игра (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/my-iyashikei-game/cover/gWmO2rrrgKmw_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 160,
+       "title": "Все любят большие с...сундуки! (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/everybody-loves-large-chests/cover/uvdUT8l3Mdks_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 161,
+       "title": "Я полагаюсь на поцелуи чтобы пройти игру на выживание (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/net-dannyx/cover/PZxfoIPsuzfy_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 162,
+       "title": "Я воспитываю Чёрного Дракона (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/i-raised-a-black-dragon/cover/1d325867-85da-40a2-a6d2-8a15a6cb1f48.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 163,
+       "title": "Рассказ о пожирающем мир Змее (Новелла)",
+       "rate": "8.5",
+       "img": "https://cover.imglib.info/uploads/cover/tales-of-the-world-devouring-serpent/cover/zqm9q2QGktaa_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 164,
+       "title": "Неудачный выбор (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/neudacnyi-vybor/cover/FoP6vBNvCotb_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 165,
+       "title": "Покемон Мастер тактики (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/pokemon-master-of-tactics/cover/ywqjI2R6Kwtb_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 166,
+       "title": "Мои три жены - прекрасные вампиры (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/moi-zyony-prekrasnye-vampiry/cover/pjoslqAxO8Ts_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 167,
+       "title": "Медные монеты даруют миру покой (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/tong-qian-kan-shi/cover/FuKOLpodntsi_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 168,
+       "title": "Я был принесен героиней в жертву герою (в книге) (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/i-was-sacrificed-by-the-heroine-to-the-hero-in-the-book/cover/HBLTzDBrs10V_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 169,
+       "title": "Негодник, которому не снилась девушка-кролик (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/seishun-buta-yaro/cover/ab721219-e14e-4bf5-b0d1-d7f640202f84.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 170,
+       "title": "Я вырастила навязчивого слугу (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/i-raised-an-obsessive-servant/cover/996edb0b-7ce9-4ff6-93fe-e534e97300d1.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 171,
+       "title": "Гарри Поттер и методы рационального мышления (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/harry-potter-and-the-methods-of-rationality/cover/4z1lG6XdPiA9_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 172,
+       "title": "Выживание Некроманта (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/necromancer-survival/cover/aosbQXafCyWD_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 173,
+       "title": "Марвел: Система Создателя Игр (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/marvel-game-maker-system/cover/3AgfAg57ksjo_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 174,
+       "title": "Белый мир онлайн (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/white-online/cover/f25d18b1-f935-4611-b703-91495b893e69.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 175,
+       "title": "Безмолвное чтение (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/mute-reading-novel/cover/12147e74-d725-4688-be3f-e9a9b3b9ca2c.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 176,
+       "title": "Я стала женой чудовищного кронпринца (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/ya-stala-zhenoy-chudovishchnogo-kronprintsa/cover/0t4WAorWN45j_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 177,
+       "title": "Злая семейка герцога Грида (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/akuma-no-you-na-koushaku-ikka-novel/cover/oGAKke85ErPp_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 178,
+       "title": "Последнее пламя среди морских глубин (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/deep-sea-embers/cover/zVFdrhAN29A6_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 179,
+       "title": "Истинный наследник богатой семьи вновь выходит замуж (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/haomen-zhen-shaoye-gaijia-zhong-chongsheng/cover/No1WffXvFHON_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 180,
+       "title": "Злодейка-марионетка (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/agnyeoneun-malioneteu-novel/cover/dYoztv18rn_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 181,
+       "title": "Картина, изображающая злодейку в молодости (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/agnyeoneun-geulim-eul-geulinda/cover/iHg73ENLIH6e_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 182,
+       "title": "Я злой лорд межгалактической империи! (WN) (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/ore-wa-seikan-kokka-no-akutoku-ryoshu-novel/cover/3ndY672tjuvG_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 183,
+       "title": "Червь (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/worm/cover/IuuCizWhefGQ_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 184,
+       "title": "Все злодеи влюбились в меня после перерождения (Новелла)",
+       "rate": "9",
+       "img": "https://cover.imglib.info/uploads/cover/the-villains-all-fell-in-love-with-me-after-being-reborn/cover/W9Vyw5KNcqEO_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 185,
+       "title": "Кошечка из Сакурасо (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/sakurasou-no-pet-na-kanojo-novel/cover/MLKBsu9NMk3b_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 186,
+       "title": "Игра Королей Демонов и Героев: Захват Мира (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/global-demon-king-starting-as-the-abyssal-dragon/cover/Uq8BGTBUjR3G_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 187,
+       "title": "100 вещей, которые я не знаю о своём семпае (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/100-things-i-dont-know-about-my-senior-novel/cover/cover_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 188,
+       "title": "Демон Конохи (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/demon-konoxi/cover/QI0GgyRMbnvF_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 189,
+       "title": "Влюблённый паразит (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/koi-suru-kiseichuu-novel/cover/UCRJmTZeiX3l_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 190,
+       "title": "Я переродился в аду? (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/ya-pererodilsya-v-adu-novel/cover/sUyQpmHM09ey_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 191,
+       "title": "Злодейка наслаждается своей седьмой жизнью в качестве свободолюбивой невесты (заложницы) во вражеской стране (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/the-villain-daughter-enjoys-her-seventh-life-as-a-free-spirited-bride-hostage-in-a-former-enemy-country-novel/cover/2e89fc56-6254-4f73-b2b6-e2e744e2231c.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 192,
+       "title": "Я предпочитаю злодейку (WN) (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/watashi-no-oshi-wa-akuyaku-reijou/cover/9E7MisY26cIU_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 193,
+       "title": "Как прожить жизнь вражеским принцем (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/jokkkuge-wangjaro-saneun-bop-novel/cover/i5mBeXGbRvW2_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 194,
+       "title": "Чтобы помочь вам понять (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/to-help-you-understand/cover/nMUoHyMEDImZ_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 195,
+       "title": "Любимая Кукла Тирана (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/the-tyrants-beloved-doll/cover/D4aPfi5QfsQD_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 196,
+       "title": "Малышка воспитывает негодяя (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/the-baby-raising-a-devil/cover/71f0514e-522e-4afc-9d21-05411a408193.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 197,
+       "title": "Это не твой ребёнок (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/its-not-your-child/cover/b6a931ca-8578-48ec-8b1e-ab6ab4de362e.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 198,
+       "title": "Возрождение Хуашань (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/return-of-the-mount-hua-sect/cover/4ITyuzwFUc04_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 199,
+       "title": "Перерождение у дверей ЗАГСа (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/rebirth-on-the-doors-to-the-civil-affairs-bureau-novel/cover/kRZWNr8CVXVC_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 200,
+       "title": "Убить Героя (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/kill-the-hero/cover/KOeXlrEZJSlr_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 201,
+       "title": "Родословная королевства (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/wang-guo-xue-mai/cover/kNEQtgwxpsRb_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 202,
+       "title": "Богиня или Сатана – Кто же она? (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/kami-to-yobare-maou-to-yobarete-mo-novel/cover/RBd0QusCpM_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 203,
+       "title": "Становление Героя Щита (LN) (Новелла)",
+       "rate": "8.7",
+       "img": "https://cover.imglib.info/uploads/cover/tate-no-yuusha-no-nariagarii/cover/NOcAxndC17QT_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 204,
+       "title": "Это точно герой? (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/is-this-hero-for-real/cover/1f1fdb71-28e4-4f38-b0f0-4b0a7774aac3.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 205,
+       "title": "Рандеву с жизнью (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/date-a-live-tachibana-koushi/cover/IXUHV2MAZePc_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 206,
+       "title": "Второй брак богатого старика (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/second-marriage-of-a-wealthy-old-man/cover/sbP0oxn2hVMn_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 207,
+       "title": "Кто сказал, что герои лучше злодеев (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/kto-skazal-chto-geroi-luchshe-zlodeev/cover/La6FfTowyB3l_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 208,
+       "title": "Забытая Джульетта (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/forgotten-juliet/cover/Bp5HslZ6GjYu_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 209,
+       "title": "Этот омега невосприимчив ко всем способностям (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/this-omega-is-immune-to-all-abilities/cover/Hl50honwTJE3_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 210,
+       "title": "Сказание древнего дракона (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/itaeshieryuu-no-mukashibanashi/cover/y10hhxoKid3k_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 211,
+       "title": "Шестая зона (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/no-6/cover/cover_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 212,
+       "title": "Вся моя семья - злодеи! (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/my-whole-family-are-villain-novel/cover/8oOwAVT2nHT4_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 213,
+       "title": "Правила выживания возрожденного домоседа во время конца света (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/the-reborn-otakus-code-of-practice-for-the-apocalypse/cover/xlysRQefn1OE_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 214,
+       "title": "Ваше Величество, пожалуйста, не убивайте меня снова (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/pyeha-tto-jug-ijin-malajuseyo/cover/BCHOtiaBTVkz_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 215,
+       "title": "ПОВ Автора (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/the-authors-pov/cover/tuIdSTvSB3Ch_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 216,
+       "title": "Я Приручила Тирана и Сбежала (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/i-tamed-a-tyrant-and-ran-away-novel/cover/Lzjx21Wc8oiy_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 217,
+       "title": "Я стала приёмной дочерью Герцога (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/ya-stala-priemnoy-docheryu-glavnogo-geroya/cover/ca496b68-f68a-4cb2-9b9f-08d943879362.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 218,
+       "title": "Последствия прокачки второстепенного любовного интереса (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/seobeu-namjuga-pa-eobhamyeon-saeng-gineun-il/cover/4911b4e4-d050-45d3-bc83-a1595d9d6e6d.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 219,
+       "title": "Непутевый ученик в школе магии (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/mahouka-koukou-no-rettouseii/cover/KxXTYZ6OXztQ_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 220,
+       "title": "Как стать дочерью тёмного героя (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/how-to-be-a-dark-heros-daughter/cover/8TmTGwwZuRx9_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 221,
+       "title": "Сестра злодея сегодня снова страдает (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/the-villains-sister-is-suffering-again-today/cover/Xg4peBsZDbVH_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 222,
+       "title": "Как демон-император стал дворецким (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/mo-huang-da-guan-jia/cover/tvVEzSTXxB5L_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 223,
+       "title": "Перерождение в яйцо дракона ～Я стану сильнейшим～ (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/tensei-shitara-dragon-no-tamago-datta-saikyou-igai-mezasa-nee-novel/cover/FR7QtrONNgev_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 224,
+       "title": "Трансмигрировал, чтобы стать наложником тирана (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/transmigrated-to-become-the-tyrants-male-concubine/cover/TiXgcv3KzgvM_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 225,
+       "title": "Сильнейшая Система Убийцы Драконов",
+       "rate": "8.3",
+       "img": "https://cover.imglib.info/uploads/cover/super-dragon-slaughtering-system/cover/6O0BjfdZr9pV_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 226,
+       "title": "Жизнь с моей сводной сестрой (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/gimai-seikatsu/cover/PDCt7SLTnzm3_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 227,
+       "title": "Возрождение известного на всю Поднебесную Вора (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/chong-sheng-zhi-zei-xing-tian-xia/cover/DfEXiKhjUqk4_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 228,
+       "title": "Золотая сцена (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/huang-jin-tai/cover/hpFfJyYtK8qq_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 229,
+       "title": "Создатель концовки (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/endingmeikeo/cover/NAQD3mqY8Slf_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 230,
+       "title": "Безграничный волшебник (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/infinite-mage/cover/LIbV9GFkseUU_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 231,
+       "title": "Непригодный для Академии Владыки Демонов: ~ Сильнейший в истории владыка демонов-прародитель перерождается и идёт в школу потомков～ (LN) (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou/cover/74f1114e-d736-4966-9a3c-497815bcb8e6.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 232,
+       "title": "Инструкция по эксплуатации Регрессора (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/hoegwija-sayongseolmyeongseo-novel/cover/sPU1Kr2MRx2u_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 233,
+       "title": "Что, если я приручила своего брата слишком хорошо (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/if-i-happened-to-tame-my-brother-wel/cover/HSUJHNYWAysz_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 234,
+       "title": "Великий Маг возвращается спустя 4000 лет (веб-роман)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/the-great-mage/cover/eMyOI5LvdlRB_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 235,
+       "title": "Опасные личности (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/dangerous-personality/cover/LRbXvFyBVDOQ_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 236,
+       "title": "Ещё раз в свет (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/dasi-han-beon-bich-sog-eulo/cover/b45f8086-4652-49ea-b5b9-3d3a33e9b70b.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 237,
+       "title": "Маг на полную ставку (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/quanzhi-fashi-novel/cover/aghtuK5hHtiR_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 238,
+       "title": "Режим — АД. Хардкорный геймер на самой высокой сложности в другом мире (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/hellmode-gamer-who-likes-to-speedrun-becomes-peerless-in-a-parallel-world-with-obsolete-setting/cover/ksGTKMZIakB0_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 239,
+       "title": "Что принесёт конец? Найдётся время? Спасёшь ли ты меня?  (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/shuumatsu-nani-shitemasu-ka-isogashii-desuka-sukutte-moratte-ii-desuka-1-novel/cover/cover_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 240,
+       "title": "Век-волкодав (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/vek-volkolav/cover/41vG4R1UrtOT_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 241,
+       "title": "Копай, чтобы выжить: Я могу видеть подсказки (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/digging-to-survive-i-can-see-hints/cover/7i5bmmAYM9cP_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 242,
+       "title": "Перестроить мир (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/ri-birudo-warudo/cover/JxDjOYLWpLsY_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 243,
+       "title": "Усмиритель душ (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/zhen-hun-novel/cover/9fc50364-1417-4e5f-aa6a-ee81a119a5d7.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 244,
+       "title": "Хроники восстановления королевства реалистом (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/genjitsushugi-yuusha-no-oukoku-saikenki-novel/cover/d3229548-d5a3-4bd6-83d4-e098b891c157.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 245,
+       "title": "Люблю Тебя 59 Секунд (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/wangyou-zhi-ai-ni-59-miao/cover/QstDfE5jOdZn_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 246,
+       "title": "Я застряла на отдалённом острове с главными героями (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/im-stuck-on-a-remote-island-with-the-male-leads/cover/4c96ced1-f020-43ae-b80a-5bd1f3a1853e.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 247,
+       "title": "Геноцид Онлайн (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/genocide-online/cover/FTNTjdJZwvfo_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 248,
+       "title": "Вместо сына я возьму отца (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/rather-than-the-son-ill-take-the-father/cover/qRXT0gGLBPlY_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 249,
+       "title": "Я больше не могу играть (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/i-cant-act-anymore/cover/2qJbxVfEU4BM_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 250,
+       "title": "Поднятие уровня с богами (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/singwa-hamke-lebel-eob/cover/shFVk2TdPH56_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 251,
+       "title": "Матриарх перевоплотилась в богатую госпожу (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/the-master-became-a-wealthy-madam-novel/cover/rS1QWq9BgvXG_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 252,
+       "title": "Лунный бог, приключение и другой мир (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/tsuki-ga-michibiku-isekai-douchuu-novel/cover/92Y0W9kwYCzh_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 253,
+       "title": "Драгоценная сестра великого герцога-злодея (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/agdang-daegongnim-ui-gwihadigwihan-yeodongsaeng/cover/4uVowlVmT8nu_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 254,
+       "title": "Неправильная игра (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/misplacement-game/cover/1POAHZzFfco5_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 255,
+       "title": "Восстание легиона нежити (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/rise-of-the-undead-legion/cover/JpxZQYhuxHJg_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 256,
+       "title": "Неприкасаемая леди (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/jeobgeun-bulga-leidi/cover/57f08e62-fef2-4a96-8517-8d75cd76f4b3.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 257,
+       "title": "Я полагаюсь на бедность, чтобы пройти игры на выживание (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/wo-kao-pinqiong-hengsao-taosheng-youxi/cover/MZWPMzkux9DI_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 258,
+       "title": "Руководство гениального принца по вызволению страны из долгов (пора и родину продать) (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/tensai-ouji-no-akaji-kokka-saisei-jutsu-souda-baikoku-shiyou-novel/cover/FyjkQ3Zo1kpF_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 259,
+       "title": "Сказка о белой кошке (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/v-poiskax-belaya-koska/cover/Efz46hfKSlkw_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 260,
+       "title": "Арифурэта: С простейшей профессией к Сильнейшему в мире (LN) (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/arifureta-from-commonplace-to-worlds-strongest/cover/UGdn3RzMvjVy_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 261,
+       "title": "О моём перерождении в меч (WN) (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/tensei-shitara-kendeshita-novel/cover/dQggWCN5fWAs_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 262,
+       "title": "Выбери меня! (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/pik-mi-op/cover/vhWx2zplNn6t_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 263,
+       "title": "Боль, Боль, Уходи (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/itai-no-itai-no-tonde-yuke/cover/cover_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 264,
+       "title": "Убить Злодейку (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/agnyeoleul-jug-yeo-jwo-novel/cover/TCpupJiNMnZS_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 265,
+       "title": "Начало После Конца: Среди Павших (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/the-beginning-after-the-end-amongst-the-fallen-novel/cover/PAmz4zr8KqSG_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 266,
+       "title": "Варварское предложение (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/yaman-ui-cheonghon/cover/ffac7ec2-53b5-44e7-ba25-1d173b3b54ea.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 267,
+       "title": "В конечном счёте я стану твоей: История Саеки Саяки (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/yagate-kimi-ni-naru-saeki-sayaka-ni-tsuite/cover/EU23ZpqaIEQQ_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 268,
+       "title": "Злодей Деку (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/au-villain-deku/cover/KvoH27RdMqGR_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 269,
+       "title": "Круг первый: Дух Дракона. (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/krug-pervyy-dukh-drakona/cover/Lhs0sC9OlmJt_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 270,
+       "title": "Генерал любит собирать маленькие красные цветы (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/jiangjun-ai-ji-xiao-honghua/cover/VZOIilfrNqvg_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 271,
+       "title": "Моя девушка изменяла мне с семпаем, так что я изменю ей с его девушкой (LN) (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/kanojo-ga-senpai-ni-ntr-reta-no-de-senpai-no-kanojo-wo-ntr-masu-kanojo-ntr-ln/cover/68T0ugfu5ggX_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 272,
+       "title": "Я буду матерью этого воина (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/ill-be-the-warriors-mother/cover/f8f117c3-575d-44e4-ae2d-0c0d858f7ad2.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 273,
+       "title": "Мать злодея и второстепенного персонажа (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/the-villain-and-the-cannon-fodders-mother/cover/U3ooAh76qRCS_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 274,
+       "title": "Выйти замуж за отца главного героя (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/married-to-the-male-leads-father/cover/ztwIDhqdPlw6_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 275,
+       "title": "Привилегия попаданки (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/preference-for-the-possessed/cover/txTdCWRW5Oj7_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 276,
+       "title": "Медиум (Новелла)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/medium/cover/5nrEtbYv1Stx_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 277,
+       "title": "Руководство по поддержке беспомощного злодея с травмой (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/guide-to-raising-the-sick-villain/cover/MAoh2EhUhXaV_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 278,
+       "title": "Сказания о Пастухе Богов (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/tales-of-herding-gods/cover/jkvcYstKPeJ8_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 279,
+       "title": "Я исцеляю лишь злодеев (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/agdanggman-chwigeubhabnida/cover/yXuDJ5OtMkWW_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 280,
+       "title": "Лёгкая улыбка покоряет мир (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/weiwei-yixiao-hen-qingcheng-novel/cover/cover_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 281,
+       "title": "Дворецкий злодейки ~Я сделаю из неё милашку~ (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/akuyaku-reijou-no-shitsuji-sama-ore-ga-sodateta-kanojo-wa-totemo-kawaii-novel/cover/stOZZGFTdCDw_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 282,
+       "title": "Сказка о сахарном яблоке (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/sugar-apple-fairytale/cover/71d9da0f-c43f-4b45-8b7c-6fa690ea7555.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 283,
+       "title": "Пространственный властитель (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/dimensional-sovereign/cover/zg4R4yMja0ux_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 284,
+       "title": "Реинкарнация Алисары (Старая версия)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/the-reincarnation-of-alysara/cover/FvS7yZgQlrWA_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 285,
+       "title": "Человек-бензопила: Истории о напарниках (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/chainsaw-man-buddy-stories/cover/8lweGNmWnlXr_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 286,
+       "title": "Владея Ничем (Новелла)",
+       "rate": "8.3",
+       "img": "https://cover.imglib.info/uploads/cover/jubuldo-absnen-hoegu/cover/8fXkMpBcKlSq_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 287,
+       "title": "Легенда об Архимаге (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/legend-of-the-arch-magus-novel/cover/a2a4cf01-4343-492d-abeb-6d5a803c5d03.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 288,
+       "title": "Мне не нужны твои извинения (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/nal-mianhae-hajima/cover/2d713080-7191-4136-bf83-24048ea2f7e0.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 289,
+       "title": "Я переродился в сестру Саске? (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/ya-pererodilsya-v-sestru-saske/cover/nCPWjRt0bQQp_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 290,
+       "title": "Парная культивация (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/dual-cultivation/cover/4ec276f6-cd5e-4ef9-8d13-7775abafa6da.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 291,
+       "title": "Вершина боевых искусств (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/wu-lian-dian-feng/cover/WRtkQVpQ7dcW_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 292,
+       "title": "Тетрадь смерти: Другая тетрадь. Дело Лос-Анджелесского убийцы Б.Б. (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/anaza-noto-rosanzerusu-bb-renzoku-satsujin-jiken/cover/I5bzZ9nawpYm_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 293,
+       "title": "Восставший против неба (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/ni-tian-xie-shen-novel/cover/DUH9TIxpCwH2_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 294,
+       "title": "Когда незаконнорожденная дочь графа выходит замуж (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/bulbeob-kaunteuui-ttal-i-gyeolhon-hal-ttae/cover/dHwdxDryg7N7_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 295,
+       "title": "Возвращение героя катастрофы (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/the-return-of-the-disaster-hero/cover/8o9t6gSmulM1_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 296,
+       "title": "Гениальный доктор (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/tuyet-the-than-y-phuc-hac-dai-tieu-thu/cover/cover_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 297,
+       "title": "Передовая Технологическая Система Учёного (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/scholars-advanced-technological-system/cover/LdNE5Gabx5c8_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 298,
+       "title": "Легенда о северном клинке (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/legend-of-the-northern-blade-novel/cover/73d31363-1ae0-4d55-9c1d-07352719a0b5.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 299,
+       "title": "Монолог в аптечной лавке (WN) (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/kusuriya-no-hitorigoto-novel/cover/uQgs4WCaFG4q_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 300,
+       "title": "Я переродился в Высшего эльфа, но спустя 120 лет мне надоела неспешная жизнь (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/tenshou-shite-hai-erufu-ni-nari-mashi-ta-ga-suroraifu-ha-120-toshi-de-aki-mashi-ta/cover/R08migSFG6Sa_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 301,
+       "title": "Я избавила от поводка безумного  героя (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/heugmag-ui-mogjul-eul-nohchyeo-beolyeossda/cover/BzPcqc271PDK_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 302,
+       "title": "Первоклассная удача, спокойная практика на протяжении 1000 лет. (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/dingji-qiyu-qiaoqiao-xiulian-qiannian/cover/W2eUGi6Nvbwm_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 303,
+       "title": "Безработный убийца (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/shashou-ta-shiyele/cover/SU6KJPSs9KQR_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 304,
+       "title": "Сумасшедший тиран-страж трансмигрирует в красивую пустышку-омегу (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/crazy-tyrant-sentinel-transmigrates-as-a-flower-vase-omega/cover/JQnQKIxMhOYX_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 305,
+       "title": "Лучше быть вдовствующей императрицей (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/gong-dou-buru-dang-taihou/cover/Ws9Sm9QHlzYV_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 306,
+       "title": "Мир боевых искусств (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/wuji-tianxia-novel/cover/cover_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 307,
+       "title": "Трагические обстоятельства злодейки (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/the-tragedy-of-the-villainess/cover/3x0GlEHesEob_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 308,
+       "title": "Злодейка 99 уровня ~Я могу быть Скрытым Боссом, но я не Король Демонов (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/akuyaku-reijo-reberu-99-watashi-wa-ura-bosudesuga-maode-wa-arimasen/cover/znOJ3Vlddfpx_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 309,
+       "title": "Нежная мать злодея (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/delicate-mother-of-a-villian-novel/cover/gJqTTLxEHoNE_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 310,
+       "title": "Боевой континент 1 (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/dou-luo-da-lu/cover/OPnth2GBFUuI_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 311,
+       "title": "Я не любовница финального босса! (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/its-a-misunderstanding-that-im-the-final-bosss-lover/cover/R0C263n6kvHC_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 312,
+       "title": "Клинок, рассекающий демонов: Дыхание крови (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/klinok-rassekayushhii-demonov-dyxanie-krovi/cover/89zQmoplxWIx_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 313,
+       "title": "Законы другого мира (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/di-the-chi-van-van-phap-tac/cover/Rm5MlCW7vALZ_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 314,
+       "title": "Защита Подземелья (Новелла)",
+       "rate": "8.6",
+       "img": "https://cover.imglib.info/uploads/cover/dungeon-defense-novel/cover/cover_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 315,
+       "title": "Я Запечатаю Небеса (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/wo-yu-feng-tian-novel/cover/cover_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 316,
+       "title": "Система потомков Люцифера (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/lucifers-descendant-system/cover/4ZpQ3iXFZSrF_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 317,
+       "title": "Я  - жена второго главного героя-яндере (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/im-the-wife-of-the-yandere-second-male-lead/cover/InKNmmTX60rI_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 318,
+       "title": "Сага о бездарном рыцаре (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/rakudai-kishi-no-eiyuutan-novel/cover/jGN8ZHIgGz34_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 319,
+       "title": "Розовая пора моей школьной жизни сплошной обман - Продолжение (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/yahari-ore-no-seishun-rabukome-wa-machigatteiru-shin/cover/nmFpN07xrJD6_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 320,
+       "title": "Обречённый на бесконечность (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/obrecennyi-na-beskonecnost/cover/4msAyJjR8DXE_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 321,
+       "title": "Плачь, а ещё лучше, умоляй (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/cebiyb/cover/3ba7051a-0b1a-4faf-8cd0-0e5013cb017e.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 322,
+       "title": "Я подружился со второй самой привлекательной девушкой в ​​моем классе (WN) (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/i-became-friends-with-the-second-cutest-girl-in-my-class/cover/4sD1TI8NXURv_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 323,
+       "title": "Пусть стоны станут приятнее (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/deo-yeppeuge-ul-eo-boseyo/cover/sH5mRNtwdvfl_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 324,
+       "title": "Я стала женой главного героя (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/na-namza-juingongyn-anaga-doeassda/cover/5Mzz0fdARNQA_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 325,
+       "title": "Второе пришествие обжорства (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/the-second-coming-of-gluttony/cover/WP27Xv132Gku_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 326,
+       "title": "Главная героиня закрутила роман с моим женихом (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/yeju-ga-ne-yakhonja-wa-paramnatt-ta/cover/5PbelVVgNsio_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 327,
+       "title": "Записи по взращиванию мужа в Каменном Веке (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/stone-age-husband-raising-journal/cover/3gUc5OZBm9Lz_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 328,
+       "title": "Мой муж с синдромом ученого (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/my-husband-with-scholar-syndrome/cover/4jdmDb6J91M7_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 329,
+       "title": "Второстепенная героиня просто хочет жить хорошей жизнью (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/the-female-supporting-character-just-wants-to-live-a-good-life-novel/cover/3KsYSLgU8HVr_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 330,
+       "title": "Возвращение замороженного игрока (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/return-of-the-frozen-player/cover/MU73IFf7mIlr_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 331,
+       "title": "Благоустройство дочери герцога (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/koushaku-reijou-no-tashinami-novel/cover/KRx5k1w7j0xC_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 332,
+       "title": "Я — Монарх (Новелла)",
+       "rate": "8.7",
+       "img": "https://cover.imglib.info/uploads/cover/i-am-the-monarch/cover/cover_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 333,
+       "title": "Младший сын графа ― чернокнижник (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/baegjagga-dolyeonnim-eun-heugmabeobsa/cover/LWNspoBkk1Lv_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 334,
+       "title": "Рок ли (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/rok-li/cover/R6vTsqkRVnrt_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 335,
+       "title": "Создатель злодейки (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/agnyeo-meikeo-novel/cover/YlVtu9tOUbdX_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 336,
+       "title": "Ради моего брошенного любимого (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/for-my-abandoned-love/cover/sUaApC1FX6dX_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 337,
+       "title": "Она стала такой милой (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/she-become-sweet-and-cuddely/cover/S3KqOnqBisW2_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 338,
+       "title": "Пожалуйста, покорись мне (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/please-obey-me/cover/tAucWoNBNqsT_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 339,
+       "title": "Почему вы одержимы безответной любовью? (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/why-are-you-so-obsessed-with-rejecting-affection/cover/QsiAHZmNUeKW_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 340,
+       "title": "Отброс хочет жить (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/mangnanineun-salgo-sipda/cover/2pEwmqRuYplF_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 341,
+       "title": "Тебе лишь нужно убивать (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/all-you-need-is-kill-novel/cover/RdZ9GCQSYVEC_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 342,
+       "title": "Расцвет расизма эпохи Цин (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/rascvet-rasizma-epoxi-cin-novel/cover/5mwDde9nnCnL_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 343,
+       "title": "Все говорят, что я встретил призрака (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/they-all-say-ive-met-a-ghost/cover/Ob9oTWP51MTI_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 344,
+       "title": "Самые сильные люди мира одержимы мной (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/the-most-powerful-characters-in-the-world-are-obsessed-with-me-novel/cover/126813cb-2faa-4b5b-be85-ebabca6aaeed.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 345,
+       "title": "Путешествие Элейны (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/majo-no-tabitabi-manga/cover/6UTXrxTjex3b_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 346,
+       "title": "Перерождение в мире баскетбола Куроко (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/rebirth-in-kuroko-no-basket/cover/bG3Dxf51Riyl_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 347,
+       "title": "Старшая школа D×D (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/high-school-dxd-novel/cover/j8YWGbRWPHDt_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 348,
+       "title": "Я стал главным ублюдком в этой новелле (Новелла)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/trapped-in-a-webnovel-as-a-good-for-nothing/cover/4lKa1GZ8R2UI_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 349,
+       "title": "Я (героиня) не хочу, чтобы надо мной издевались, поэтому я всеми силами буду помогать злодейке. (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/i-the-heroine-dont-want-to-be-bullied-so-ill-help-the-villainess-with-all-my-might/cover/cAeXENWqcpAn_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 350,
+       "title": "Закон Бессонницы (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/Insos-law-novel/cover/fD9dhnOcMlkW_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 351,
+       "title": "Седьмой лорд. (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/qi-ye/cover/7hVpmA8GxADw_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 352,
+       "title": "Я не буду подбирать выброшенный мусор (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/beolin-sseulegineun-dasi-jubji-anhneunda/cover/c9112554-dba7-471a-ab57-88260e4163fe.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 353,
+       "title": "Выйти замуж за мягкосердечного злодея (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/marrying-the-soft-hearted-villain/cover/Pye13xGcaONu_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 354,
+       "title": "Король нежити дворца тьмы (Веб Новелла) (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/kuraki-kyuuden-no-shisha-no-ou-novel/cover/qmLuQjs8EsBN_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 355,
+       "title": "Назад к шестидесятым : ферма, богатство и забота о детях (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/back-to-the-sixties-farm-get-wealthy-and-raise-the-cubsnovel/cover/RePFEZ2fYhEE_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 356,
+       "title": "История в библиотеке (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/yeogsaneun-doseogwan-eseo-novel/cover/24ae09a1-c26d-41dd-9fe9-5e42a8c6d9cc.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 357,
+       "title": "Расколотая битвой синева небес (Новелла)",
+       "rate": "8.9",
+       "img": "https://cover.imglib.info/uploads/cover/dou-po-cang-qiong/cover/AH7an6T4v7Oq_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 358,
+       "title": "Я ведьма, которую возлюбленный попросил создать любовное зелье (WN)",
+       "rate": "9",
+       "img": "https://cover.imglib.info/uploads/cover/domo-sukinahito-ni-horegusuri-o-irai-sa-reta-majodesu-novel/cover/lLmkTH0Ibuix_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 359,
+       "title": "Гранд-адмирал (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/grand-admiral-identifikaciya-novel/cover/f9bdb9a6-e93c-4d2d-be79-2b3fa3923c4e.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 360,
+       "title": "Зов разлома (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/zov-razloma/cover/8tdrN1bebZlY_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 361,
+       "title": "Детектив Уже Мёртв (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/tantei-wa-mo-shindeiru/cover/2750c6a6-6abe-44a9-b94f-5c8033dcc398.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 362,
+       "title": "Чёрный лебедь, ставшая матерью принцессы-лебедя (Новелла)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/i-became-the-black-swan-mother-of-the-white-swan/cover/e3c62f21-c2f6-4aa1-8d9b-c2b509013b7a.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 363,
+       "title": "Ми-Ми-Ми-Мишка (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/the-bears-bear-a-bare-kuma-novel/cover/gilH56LN0gNF_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 364,
+       "title": "Мифический дух: Хроники (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/seirei-gensouki/cover/bd3770aa-86ad-4e1a-b269-af88acf39ece.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 365,
+       "title": "Я не хочу, чтобы меня любили (Новелла)",
+       "rate": "8.5",
+       "img": "https://cover.imglib.info/uploads/cover/ya-ne-khochu-chtoby-menya-lyubili/cover/u5RxvzuEjig8_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 366,
+       "title": "Злодейка, перевернувшая песочные часы (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/agnyeoneun-molaesigyeleul-doedollinda/cover/FjKVsXbFpKHJ_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 367,
+       "title": "Невероятные приключения ДжоДжо: Над небесами",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/jojos-bizarre-adventure-over-heaven/cover/DsmU595vNEDE_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 368,
+       "title": "Живи быстро, умри красиво (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/zivi-bystro-umri-krasivo/cover/ej9OyFyw12Oz_250x350.jpg",
+       "country": "Авторский"
+   },
+   {
+       "id": 369,
+       "title": "Система Верховного Бога Гарема (Новелла)",
+       "rate": "9.0",
+       "img": "https://cover.imglib.info/uploads/cover/supreme-harem-god-system/cover/65012b3b-a9eb-40cc-9ded-9f0b213776ba.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 370,
+       "title": "Выживание сильнейшей героини в отомэ-игре (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/otome-game-no-heroine-de-saikyou-survival-ln/cover/762385b0-ea9b-4239-a8b1-ff0f9177f41c.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 371,
+       "title": "Под звёздным небом мне дорог лишь твой голос (LN) (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/hoshizora-no-shita-kimi-no-koe-dake-wo-dakishimeru/cover/pPr5Of3VrT9q_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 372,
+       "title": "Реинкарнация: воспитать ребенка главного героя (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/transmigration-raising-the-child-of-the-male-lead-boss/cover/P1EUsPPueEsF_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 373,
+       "title": "Арифурэта: Сильнейший ремесленник в мире (Новелла)",
+       "rate": "8.3",
+       "img": "https://cover.imglib.info/uploads/cover/arifureta-shokugyou-de-sekai-saikyou-novel/cover/8StfH9mkZhpK_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 374,
+       "title": "Книга Мёртвых (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/book-of-the-dead/cover/VF9ZRIqRMTCW_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 375,
+       "title": "Регрессор забирает всё (Новелла)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/regressor-takes-everything/cover/EqsGxw5OUaow_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 376,
+       "title": "С этого момента принцесса будет бастовать (Новелла)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/gongnyeoneun-jideumbuteo-pa-eobhabnida/cover/92a957f8-c2f1-41b0-9f07-36ca96f049ba.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 377,
+       "title": "Патриотизм Мориарти: Этюд в Багровых Тонах (Новелла)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/hiiro-no-kenkyu/cover/sOLKzfpSSe5e_250x350.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 378,
+       "title": "Убийца Гоблинов (Новелла)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/goburin-sureiya/cover/b422748a-ad11-400b-a4bf-47bd99886f99.jpg",
+       "country": "Япония"
+   },
+   {
+       "id": 379,
+       "title": "Система Злой Богини (Новелла)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/evil-goddess-system/cover/96oxilg8yzRI_250x350.jpg",
+       "country": "Английский"
+   },
+   {
+       "id": 380,
+       "title": "Объятия ( Магистр дьявольского культа) (Новелла)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/obyatiya-magistr-dyavolskogo-kulta/cover/MIEXwDO7ZxW9_250x350.jpg",
+       "country": "Фанфик"
+   },
+   {
+       "id": 381,
+       "title": "Пассив – А, актив – О (Новелла)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/bottom-a-top-o/cover/Rjqt6QEreIYt_250x350.jpg",
+       "country": "Китай"
+   }
+]

@@ -1,15 +1,17 @@
-
-import { IoPerson } from "react-icons/io5";
+import { IoEnterOutline } from "react-icons/io5";
 
 import Link from "next/link";
 import ThemeButton from "./UI/ThemeButton";
+import { Tooltip } from "@mui/material";
 
 export default function UnAuthUserSection() {
    return (
       <div className="flex items-center lg:gap-6">
-         <ThemeButton/>
+         <ThemeButton />
          <Link href="">
-            <IoPerson className="dark:text-silver text-gunmetal cursor-pointer" />
+            <Tooltip title="Увійти / Зареєструватися">
+               <IoEnterOutline size={21} />
+            </Tooltip>
          </Link>
       </div>
    );
