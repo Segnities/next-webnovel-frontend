@@ -50,13 +50,16 @@ export default function SortingSelector() {
             <span><FaSortDown size={10} /></span>
          </button>
          <Popper
-            sx={{ with: "300px", backgroundColor: "white", top: "8px" }}
+            sx={{
+               with: "280px",
+               top: "8px",
+            }}
             id={id}
             open={open}
             anchorEl={anchorEl}
             className="z-20"
          >
-            <div className="dark:bg-eerieBlack bg-white">
+            <div className="dark:bg-charcoal dark:text-silver bg-white p-2 rounded-md border top-3">
                <RadioGroup
                   aria-labelledby="sorting-radio-buttons-group-label"
                   defaultValue={selectedSortOption}
@@ -66,7 +69,7 @@ export default function SortingSelector() {
                      {
                         sortingOptions.map(el => (
                            <MenuItem key={el}>
-                              <FormControlLabel value={el} control={<Radio className=""/>} label={el} />
+                              <FormControlLabel value={el} control={<Radio className="" />} label={el} />
                            </MenuItem>
                         ))
                      }

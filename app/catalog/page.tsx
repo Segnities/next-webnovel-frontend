@@ -12,10 +12,8 @@ export default function CatalogPage() {
             <div className="xl:col-start-2 xl:col-span-11 col-span-full">
                <CatalogSection title="Каталог" list={catalogSection} />
             </div>
-            <div className="lg:col-span-4 hidden lg:flex items-center justify-center">
-               <ContainerOffset>
-                  <FiltersSection/>
-               </ContainerOffset>
+            <div className="lg:col-span-4 hidden lg:flex justify-center">
+               <FiltersSection />
             </div>
          </div>
       </BgLayout>
