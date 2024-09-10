@@ -1,7 +1,7 @@
 import { IoEnterOutline } from "react-icons/io5";
 
 import Link from "next/link";
-import ThemeButton from "./UI/ThemeButton";
+import ThemeButton from "./ui/ThemeButton";
 import { Tooltip } from "@mui/material";
 
 export default function UnAuthUserSection() {

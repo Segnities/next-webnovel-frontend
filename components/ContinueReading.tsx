@@ -5,8 +5,8 @@ export default function ContinueReading() {
    return (
       <div>
          <div className="flex justify-between items-center pb-1 px-1">
-            <div className="dark:text-primary text-lg font-semibold">Продовжити читати</div>
-            <span className="dark:text-primary text-sm cursor-pointer">очистити</span>
+            <div className="dark:text-primaryStart text-lg font-semibold">Продовжити читати</div>
+            <span className="dark:text-primaryStart text-sm cursor-pointer">очистити</span>
          </div>
          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-6 pt-3 ">
             {

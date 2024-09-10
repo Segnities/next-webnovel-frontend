@@ -1,38 +1,32 @@
-'use client'
+"use client"
 
-import { useMediaQuery } from '@mui/material';
-import { createTheme, ThemeProvider as MUIThemeProvider } from '@mui/material/styles';
-import { useMemo } from 'react';
+import * as React from "react"
+import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes"
+import { createTheme, ThemeProvider as MUIThemeProvider, Theme } from '@mui/material/styles';
+import { type ThemeProviderProps } from "next-themes/dist/types"
 import { blue, grey } from '@mui/material/colors';
-import { useAppSelector } from '@/store/hooks';
 
-const darkTheme = createTheme({
-   palette: {
-      mode: 'dark',
+const getMuiTheme = (mode: 'light' | 'dark') => 
+  createTheme({
+    palette: {
+      mode: mode,
       primary: blue,
       secondary: grey,
-   },
-});
+    },
+  });
 
-const lightTheme = createTheme({
-   palette: {
-      mode: 'light',
-      primary: blue,
-      secondary: grey,
-   },
-});
+export default function ThemeProvider({ children, ...props }: ThemeProviderProps) {
+  const { resolvedTheme } = useTheme(); 
 
-export default function ThemeProvider({
-   children,
-}: Readonly<{
-   children: React.ReactNode;
-}>) {
-   const { themeColor } = useAppSelector(state => state.theme)
-   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const appliedTheme = React.useMemo(() => {
+    return resolvedTheme === 'dark' ? getMuiTheme('dark') : getMuiTheme('light');
+  }, [resolvedTheme]);
 
-   return (
-      <MUIThemeProvider theme={themeColor === "dark" ? darkTheme : lightTheme}>
-         {children}
+  return (
+    <NextThemesProvider {...props}>
+      <MUIThemeProvider theme={appliedTheme}>
+        {children}
       </MUIThemeProvider>
-   )
+    </NextThemesProvider>
+  )
 }

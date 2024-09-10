@@ -1,35 +1,50 @@
-'use client'
+"use client"
+import { useState
 
-import { toDarkTheme, toLightTheme } from "@/store/features/theme/themeSlice";
-import { useAppDispatch } from "@/store/hooks";
-import { useMediaQuery } from "@mui/material";
-import { useState } from "react";
-import { HiMoon } from "react-icons/hi2";
-import { LuSunMedium } from "react-icons/lu";
+ } from "react"
+import { Moon, Sun } from "lucide-react"
+import { useTheme } from "next-themes"
+import Menu from "@mui/material/Menu"
+import MenuItem from "@mui/material/MenuItem"
+import IconButton from "@mui/material/IconButton"
 
 export default function ThemeButton() {
-   const [isDarkMode, setIsDarkMode] = useState(useMediaQuery('(prefers-color-scheme: dark)'));
-   const dispatch = useAppDispatch();
-   const handleToggleSwitch = () => {
-      const darkMode = document.body.classList.contains('dark');
+   const { setTheme } = useTheme()
+   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
 
-      if (darkMode) {
-         setIsDarkMode(false);
-         dispatch(toLightTheme());
-      } else {
-         setIsDarkMode(true);
-         dispatch(toDarkTheme());
-      }
+   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+      setAnchorEl(event.currentTarget)
    }
+
+   const handleClose = () => {
+      setAnchorEl(null)
+   }
+
    return (
-      <button onClick={handleToggleSwitch}>
-      {
-         isDarkMode ? (
-            <HiMoon className="w-4 h-4"/>
-         ) : (
-            <LuSunMedium className="w-4 h-4 fill-sky-400/20"/>
-         )
-      }
-   </button>
+      <div>
+         <IconButton onClick={handleClick} color="inherit">
+            <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+            <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+            <span className="sr-only">Toggle theme</span>
+         </IconButton>
+         <Menu
+            anchorEl={anchorEl}
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+            sx={{
+               zIndex: "20",
+            }}
+         >
+            <MenuItem onClick={() => { setTheme("light"); handleClose() }}>
+               Light
+            </MenuItem>
+            <MenuItem onClick={() => { setTheme("dark"); handleClose() }}>
+               Dark
+            </MenuItem>
+            <MenuItem onClick={() => { setTheme("system"); handleClose() }}>
+               System
+            </MenuItem>
+         </Menu>
+      </div>
    )
 }

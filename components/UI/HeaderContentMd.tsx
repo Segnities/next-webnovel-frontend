@@ -103,37 +103,37 @@ export default function HeaderContentMd() {
                            <ListItemIcon>
                               <IoLayers />
                            </ListItemIcon>
-                           <ListItemText primary="Новели" />
+                           <ListItemText primaryStart="Новели" />
                         </ListItemButton>
                         <ListItemButton>
                            <ListItemIcon>
                               <FaFireAlt />
                            </ListItemIcon>
-                           <ListItemText primary="Популярне" />
+                           <ListItemText primaryStart="Популярне" />
                         </ListItemButton>
                         <ListItemButton>
                            <ListItemIcon>
                               <FaStar />
                            </ListItemIcon>
-                           <ListItemText primary="Колекції" />
+                           <ListItemText primaryStart="Колекції" />
                         </ListItemButton>
                         <ListItemButton>
                            <ListItemIcon>
                               <RxCountdownTimer />
                            </ListItemIcon>
-                           <ListItemText primary="Нещодавно" />
+                           <ListItemText primaryStart="Нещодавно" />
                         </ListItemButton>
                         <ListItemButton>
                            <ListItemIcon>
                               <FaCompass />
                            </ListItemIcon>
-                           <ListItemText primary="Відгуки та рецензії" />
+                           <ListItemText primaryStart="Відгуки та рецензії" />
                         </ListItemButton>
                         <ListItemButton onClick={toggleNestedCatalog}>
                            <ListItemIcon>
                               <BsThreeDots />
                            </ListItemIcon>
-                           <ListItemText primary="Більше" />
+                           <ListItemText primaryStart="Більше" />
                            {openNestedCatalog ? <ExpandLess /> : <ExpandMore />}
                         </ListItemButton>
                         <Collapse in={openNestedCatalog} timeout="auto" unmountOnExit>
@@ -142,19 +142,19 @@ export default function HeaderContentMd() {
                                  <ListItemIcon>
                                     <GiArtificialIntelligence />
                                  </ListItemIcon>
-                                 <ListItemText primary="Персонажі" />
+                                 <ListItemText primaryStart="Персонажі" />
                               </ListItemButton>
                               <ListItemButton sx={{ pl: 4 }}>
                                  <ListItemIcon>
                                     <GiShintoShrineMirror />
                                  </ListItemIcon>
-                                 <ListItemText primary="Видатництва" />
+                                 <ListItemText primaryStart="Видатництва" />
                               </ListItemButton>
                               <ListItemButton sx={{ pl: 4 }}>
                                  <ListItemIcon>
                                     <FaPeopleGroup />
                                  </ListItemIcon>
-                                 <ListItemText primary="Команди" />
+                                 <ListItemText primaryStart="Команди" />
                               </ListItemButton>
                            </List>
                         </Collapse>
@@ -187,7 +187,7 @@ export default function HeaderContentMd() {
                               <ListItemIcon>
                                  <FaNewspaper className="fill-silver" />
                               </ListItemIcon>
-                              <ListItemText primary="Новини" />
+                              <ListItemText primaryStart="Новини" />
                            </ListItemButton>
                         </ListItem>
                         <ListItem disablePadding>
@@ -195,7 +195,7 @@ export default function HeaderContentMd() {
                               <ListItemIcon>
                                  <FaQuestion className="fill-silver" />
                               </ListItemIcon>
-                              <ListItemText primary="Питання та відповіді" />
+                              <ListItemText primaryStart="Питання та відповіді" />
                            </ListItemButton>
                         </ListItem>
                         <ListItem disablePadding>
@@ -203,7 +203,7 @@ export default function HeaderContentMd() {
                               <ListItemIcon>
                                  <IoMdMail className="fill-silver" />
                               </ListItemIcon>
-                              <ListItemText primary="Зворотній зв'язок" />
+                              <ListItemText primaryStart="Зворотній зв'язок" />
                            </ListItemButton>
                         </ListItem>
                      </List>

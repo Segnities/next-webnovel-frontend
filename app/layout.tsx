@@ -1,6 +1,5 @@
 import ReduxProvider from "@/components/providers/ReduxProvider";
 import ThemeProvider from "@/components/providers/ThemeProvider";
-import ThemeStateProvider from "@/components/providers/ThemeStateProvider";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -16,13 +15,18 @@ export default function RootLayout({
 }>) {
   return (
     <ReduxProvider>
-      <ThemeProvider>
-        <html lang="en">
-          <ThemeStateProvider>
-            {children}
-          </ThemeStateProvider>
-        </html>
-      </ThemeProvider>
+      <html lang="en">
+        <body>
+        <ThemeProvider
+           attribute="class"
+           defaultTheme="system"
+           enableSystem
+           disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+        </body>
+      </html>
     </ReduxProvider>
   );
 }

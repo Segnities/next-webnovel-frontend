@@ -32,12 +32,12 @@ export default function RecentCard({el}: Props) {
                <h3 className='dark:text-silver font-medium text-sm lg:text-base'>{el.title}</h3>
                <p className='text-sm lg:text-base dark:text-silver'>
                   {el.latestChapterNum}
-                  <span className='text-xs dark:text-secondary'>
+                  <span className='text-xs dark:text-secondaryStart'>
                      {el.chaptersNum === 1 ? el.latestChapterTitle : ` + ще ${el.chaptersNum} розділи`}
                   </span>
                </p>
-               <p className='text-xs dark:text-secondary'>{el.country}</p>
-               <span className='text-xs dark:text-secondary'>{el.latestChaptersTime}</span>
+               <p className='text-xs dark:text-secondaryStart'>{el.country}</p>
+               <span className='text-xs dark:text-secondaryStart'>{el.latestChaptersTime}</span>
             </div>
          </div>
          <Divider variant='fullWidth' />

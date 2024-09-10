@@ -73,7 +73,7 @@ export default function HeaderContentLg() {
                            <ListItemIcon>
                               <FaNewspaper className="dark:fill-silver fill-gunmetal" />
                            </ListItemIcon>
-                           <ListItemText primary="Новини" />
+                           <ListItemText primaryStart="Новини" />
                         </ListItemButton>
                      </ListItem>
                      <ListItem disablePadding>
@@ -81,7 +81,7 @@ export default function HeaderContentLg() {
                            <ListItemIcon>
                               <FaQuestion className="dark:fill-silver fill-gunmetal"/>
                            </ListItemIcon>
-                           <ListItemText primary="Питання та відповіді" />
+                           <ListItemText primaryStart="Питання та відповіді" />
                         </ListItemButton>
                      </ListItem>
                      <ListItem disablePadding>
@@ -89,7 +89,7 @@ export default function HeaderContentLg() {
                            <ListItemIcon>
                               <IoMdMail className="dark:fill-silver fill-gunmetal"/>
                            </ListItemIcon>
-                           <ListItemText primary="Зворотній зв'язок" />
+                           <ListItemText primaryStart="Зворотній зв'язок" />
                         </ListItemButton>
                      </ListItem>
                   </List>

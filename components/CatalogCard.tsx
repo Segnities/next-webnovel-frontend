@@ -27,8 +27,8 @@ export default function CatalogCard(props: Props) {
                />
             </div>
          </div>
-         <h3 className="line-clamp-2 leading-tight max-h-14 text-[0.75rem] sm:text-[0.8rem] md:text-[0.925rem] font-semibold mt-1 dark:text-primary text-charcoal">{catalogCard.title}</h3>
-         <p className="text-xs md:text-sm text-secondary">{catalogCard.country}</p>
+         <h3 className="line-clamp-2 leading-tight max-h-14 text-[0.75rem] sm:text-[0.8rem] md:text-[0.925rem] font-semibold mt-1 dark:text-primaryStart text-charcoal">{catalogCard.title}</h3>
+         <p className="text-xs md:text-sm text-secondaryStart">{catalogCard.country}</p>
       </section>
    )
 }

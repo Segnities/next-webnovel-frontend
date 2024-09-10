@@ -44,18 +44,18 @@ export default function ReviewCard({el}: Props) {
                </div>
                <div className="p-2">
                   <div className="flex items-center gap-x-4">
-                     <div className="flex items-center text-sm text-secondary">
+                     <div className="flex items-center text-sm text-secondaryStart">
                         <MdReviews /> <span>Відгук</span>
                      </div>
-                     <div className="flex items-center text-sm text-secondary">
+                     <div className="flex items-center text-sm text-secondaryStart">
                         {getTypeOfReviewIcon(el.type.id)}<span>{el.type.title}</span>
                      </div>
                   </div>
                   <div className="mt-2 my-8">
                      <div className="leading-tight text-base font-medium dark:text-silver">{el.title}</div>
-                     <p className="line-clamp-5 leading-tight max-h-24 text-sm mt-2 dark:text-primary">{el.body}</p>
+                     <p className="line-clamp-5 leading-tight max-h-24 text-sm mt-2 dark:text-primaryStart">{el.body}</p>
                   </div>
-                  <div className="w-11/12 absolute bottom-3 flex items-center justify-between mt-3 text-sm text-secondary">
+                  <div className="w-11/12 absolute bottom-3 flex items-center justify-between mt-3 text-sm text-secondaryStart">
                      <div className="flex items-center gap-x-3">
                         <div className="flex items-center gap-x-1">
                            <FaEye />

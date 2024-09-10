@@ -1,7 +1,7 @@
 import { FaSearch } from "react-icons/fa";
 
 import CatalogCardsList from "./CatalogCardsList";
-import ContainerOffset from "./UI/ContainerOffset";
+import ContainerOffset from "./ui/ContainerOffset";
 import SortingSelector from "./SortingSelector";
 
 interface Props {
@@ -31,9 +31,9 @@ export default function CatalogSection(props: Props) {
             </div>
             <div className="mt-3 mb-4 relative">
                <div className="absolute flex items-center justify-center w-8 h-full">
-                  <FaSearch className=" left-1 text-secondary" />
+                  <FaSearch className=" left-1 text-secondaryStart" />
                </div>
-               <input type="text" className="w-full bg-transparent border-secondary rounded-md pl-8 pr-4 py-1 text-darkerGray dark:text-secondary focus:outline-none border" placeholder="Пошук по назві" />
+               <input type="text" className="w-full bg-transparent border-secondaryStart rounded-md pl-8 pr-4 py-1 text-darkerGray dark:text-secondaryStart focus:outline-none border" placeholder="Пошук по назві" />
             </div>
             <CatalogCardsList list={list} />
          </section>

@@ -1,15 +1,15 @@
 import ContinueReading from "@/components/ContinueReading";
 import Header from "@/components/Header";
 import NowReading from "@/components/NowReading";
-import ContainerOffset from "@/components/UI/ContainerOffset";
+import ContainerOffset from "@/components/ui/ContainerOffset";
 import RecommendedNovelsSlider from "@/components/RecommendedNovelsSlider";
 import RecentlyUpdatedChaptersList from "@/components/RecentlyUpdatedChaptersList";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import NewsList from "@/components/NewsList";
 import LatestReviewsList from "@/components/LatestReviewsList";
 import NewNovelsSlider from "@/components/NewNovelsSlider";
-import Footer from "@/components/UI/Footer";
-import BgLayout from "@/components/UI/BgLayout";
+import Footer from "@/components/ui/Footer";
+import BgLayout from "@/components/ui/BgLayout";
 
 
 export default function Home() {
