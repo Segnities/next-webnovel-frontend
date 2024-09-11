@@ -1,4 +1,5 @@
-import { Divider } from "@mui/material";
+import { Separator } from "@/components/ui/separator";
+
 import Image from "next/image";
 
 interface Props {
@@ -40,7 +41,7 @@ export default function RecentCard({el}: Props) {
                <span className='text-xs dark:text-secondaryStart'>{el.latestChaptersTime}</span>
             </div>
          </div>
-         <Divider variant='fullWidth' />
+         <Separator/>
       </div>
    )
 }
