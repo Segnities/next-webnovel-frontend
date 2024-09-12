@@ -3,13 +3,10 @@
 import { useState } from "react";
 import { GoSortDesc } from "react-icons/go";
 import { FaSortDown } from "react-icons/fa";
-import Divider from '@mui/material/Divider';
-import Radio from '@mui/material/Radio';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Popper from "@mui/material/Popper";
-import RadioGroup from "@mui/material/RadioGroup";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Separator } from "@/components/ui/separator";
+import { Label } from "@/components/ui/label";
 
 const mainSortingOptions = [
    "За спаданням",
@@ -28,66 +25,52 @@ const sortingOptions = [
 ];
 
 export default function SortingSelector() {
-   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-      setAnchorEl(anchorEl ? null : event.currentTarget);
-   };
    const [selectedSortOption, setSelectedSortOption] = useState<string>(sortingOptions[0]);
    const [mainSortOption, setMainSortOption] = useState<string>(mainSortingOptions[0]);
-   const open = Boolean(anchorEl);
-   const id = open ? 'sorting-popper' : undefined;
 
    return (
-      <div>
-         <button
-            className="dark:text-silver cursor-pointer flex items-center justify-between min-w-48 relative text-sm px-4 py-[2px] border rounded-sm"
-            aria-describedby={id}
-            type="button"
-            onClick={handleClick}
-         >
-            <span><GoSortDesc /></span>
-            <span>{selectedSortOption}</span>
-            <span><FaSortDown size={10} /></span>
-         </button>
-         <Popper
-            sx={{ with: "300px", backgroundColor: "white", top: "8px" }}
-            id={id}
-            open={open}
-            anchorEl={anchorEl}
-            className="z-20"
-         >
+      <Popover>
+         <PopoverTrigger asChild>
+            <button
+               className="dark:text-silver cursor-pointer flex items-center justify-between min-w-48 relative text-sm px-4 py-[2px] border rounded-sm"
+               type="button"
+            >
+               <span><GoSortDesc /></span>
+               <span>{selectedSortOption}</span>
+               <span><FaSortDown size={10} /></span>
+            </button>
+         </PopoverTrigger>
+         <PopoverContent className="p-1 z-20">
             <div className="dark:bg-eerieBlack bg-white">
                <RadioGroup
-                  aria-labelledby="sorting-radio-buttons-group-label"
                   defaultValue={selectedSortOption}
-                  name="sorting-options-group"
+                  onValueChange={setSelectedSortOption}
+                  className="space-y-1"
                >
-                  <MenuList dense>
-                     {
-                        sortingOptions.map(el => (
-                           <MenuItem key={el}>
-                              <FormControlLabel value={el} control={<Radio className=""/>} label={el} />
-                           </MenuItem>
-                        ))
-                     }
-                  </MenuList>
+                  <ul className="p-2">
+                     {sortingOptions.map((el) => (
+                        <li key={el} className="flex items-center space-x-2 py-2">
+                           <RadioGroupItem value={el} id={el} />
+                           <Label htmlFor={el}>{el}</Label>
+                        </li>
+                     ))}
+                  </ul>
                </RadioGroup>
-               <Divider variant="fullWidth" />
+               <Separator className="my-2" />
                <RadioGroup
-                  aria-labelledby="main-sorting-radio-buttons-group-label"
                   defaultValue={mainSortOption}
-                  name="main-sorting-options-group"
+                  onValueChange={setMainSortOption}
+                  className="space-y-1 p-2"
                >
-                  {
-                     mainSortingOptions.map(el => (
-                        <MenuItem key={el}>
-                           <FormControlLabel value={el} control={<Radio />} label={el} />
-                        </MenuItem>
-                     ))
-                  }
+                  {mainSortingOptions.map((el) => (
+                     <div key={el} className="flex items-center space-x-2">
+                        <RadioGroupItem value={el} id={el} />
+                        <Label htmlFor={el}>{el}</Label>
+                     </div>
+                  ))}
                </RadioGroup>
             </div>
-         </Popper>
-      </div>
+         </PopoverContent>
+      </Popover>
    )
 }
