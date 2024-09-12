@@ -1,15 +1,10 @@
 'use client'
 
-import { Bell } from 'lucide-react';
-import { MdNotifications } from "react-icons/md";
-import LogoSection from "../LogoSection";
-import { Layers } from 'lucide-react';
-import { Bookmark } from 'lucide-react';
+import { Bell, Bookmark, Layers } from 'lucide-react';
 import DrawerMenu from "../DrawerMenu";
+import LogoSection from "../LogoSection";
 
 export default function HeaderContentMd() {
-
-
    return (
       <div className="lg:hidden flex items-center justify-between w-full h-full px-8 shadow-md">
          <div className="flex flex-col items-center justify-center cursor-pointer">

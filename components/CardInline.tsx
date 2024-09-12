@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MUIBorderLinearProgress from "./ui/MUIBorderLinearProgress";
+import RadixLinearProgress from "./ui/radix-linear-progress";
 
 interface Props {
    item: {
@@ -31,7 +31,7 @@ export default function itemItem({ item, percent }: Props) {
             <h3 className="line-clamp-2 leading-tight max-h-14 text-[0.915rem] lg:text-[0.875rem] font-semibold mt-1 dark:text-primaryStart">{item.title}</h3>
             <span className="dark:dark:text-primaryStart text-secondaryStart cursor-pointer text-xs lg:text-sm">Глава {item.lastChapter} - {percent}%</span>
             <div className="max-w-[95%]">
-               <MUIBorderLinearProgress variant="determinate" value={percent} />
+               <RadixLinearProgress value={percent} />
             </div>
          </div>
       </section >

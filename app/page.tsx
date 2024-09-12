@@ -4,7 +4,7 @@ import NowReading from "@/components/NowReading";
 import ContainerOffset from "@/components/ui/ContainerOffset";
 import RecommendedNovelsSlider from "@/components/RecommendedNovelsSlider";
 import RecentlyUpdatedChaptersList from "@/components/RecentlyUpdatedChaptersList";
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { ArrowRight } from "lucide-react";
 import NewsList from "@/components/NewsList";
 import LatestReviewsList from "@/components/LatestReviewsList";
 import NewNovelsSlider from "@/components/NewNovelsSlider";
@@ -39,17 +39,17 @@ export default function Home() {
                 </ContainerOffset>
                 <div className="flex flex-col gap-y-5 p-3 md:p-1 lg:p-0">
                   <section className="mt-3">
-                    <h2 className="font-medium text-base dark:text-silver">Новини  <span className="ml-2 text-sm"><ArrowForwardIcon /></span></h2>
+                    <h2 className="font-medium text-base dark:text-silver">Новини  <span className="ml-2 text-sm"><ArrowRight /></span></h2>
                     <ContainerOffset>
                       <NewsList />
                     </ContainerOffset>
                   </section>
                   <section>
-                    <h2 className="font-medium text-base dark:text-silver">Остані відгуки  <span className="ml-2 text-sm"><ArrowForwardIcon /></span></h2>
+                    <h2 className="font-medium text-base dark:text-silver">Остані відгуки  <span className="ml-2 text-sm"><ArrowRight /></span></h2>
                     <LatestReviewsList />
                   </section>
                   <section>
-                    <h2 className="font-medium text-base dark:text-silver">Новинки  <span className="ml-2 text-sm"><ArrowForwardIcon /></span></h2>
+                    <h2 className="font-medium text-base dark:text-silver">Новинки  <span className="ml-2 text-sm"><ArrowRight /></span></h2>
                     <ContainerOffset>
                       <NewNovelsSlider slidesPerViewDefault={4} />
                     </ContainerOffset>

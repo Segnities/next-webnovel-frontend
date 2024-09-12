@@ -5,8 +5,6 @@ import {
    PopoverContent,
    PopoverTrigger,
 } from "@/components/ui/popover";
-import { Button } from "@/components/ui/button"
-import { List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import { BsThreeDots } from "react-icons/bs";
 import { FaNewspaper } from "react-icons/fa";
 import { FaQuestion } from "react-icons/fa6";
@@ -20,38 +18,34 @@ export default function HeaderMoreOptions() {
                <BsThreeDots />
             </span>
          </PopoverTrigger>
-         <PopoverContent>
+         <PopoverContent className="dark:bg-charcoal">
             <nav aria-label="news question-answers feedback">
-               <List
-                  sx={{
-                     fontSize: "14px"
-                  }}
-               >
-                  <ListItem disablePadding>
-                     <ListItemButton>
-                        <ListItemIcon>
+               <ul className="text-sm">
+                  <li>
+                     <button className="flex items-center w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <span className="mr-3">
                            <FaNewspaper className="dark:fill-silver fill-gunmetal" />
-                        </ListItemIcon>
-                        <ListItemText primary="Новини" />
-                     </ListItemButton>
-                  </ListItem>
-                  <ListItem disablePadding>
-                     <ListItemButton>
-                        <ListItemIcon>
+                        </span>
+                        <span>Новини</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button className="flex items-center w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <span className="mr-3">
                            <FaQuestion className="dark:fill-silver fill-gunmetal" />
-                        </ListItemIcon>
-                        <ListItemText primary="Питання та відповіді" />
-                     </ListItemButton>
-                  </ListItem>
-                  <ListItem disablePadding>
-                     <ListItemButton>
-                        <ListItemIcon>
+                        </span>
+                        <span>Питання та відповіді</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button className="flex items-center w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <span className="mr-3">
                            <IoMdMail className="dark:fill-silver fill-gunmetal" />
-                        </ListItemIcon>
-                        <ListItemText primary="Зворотній зв'язок" />
-                     </ListItemButton>
-                  </ListItem>
-               </List>
+                        </span>
+                        <span>Зворотній зв&apos;язок</span>
+                     </button>
+                  </li>
+               </ul>
             </nav>
          </PopoverContent>
       </Popover>
