@@ -18,7 +18,7 @@ export default function CatalogCard(props: Props) {
             <div className="absolute -left-2 top-0 z-10 flex items-center justify-center bg-green-500 rounded-md w-5 h-4 md:w-8 md:h-5">
                <span className="font-medium text-[10px] sm:text-xs text-white text-center">{catalogCard.rate}</span>
             </div>
-            <div className="relative w-20 h-32 md:w-32 md:h-48 lg:w-36 lg:h-52 xl:w-40 xl:h-56 rounded-lg overflow-hidden">
+            <div className="relative w-20 h-32 md:w-32 md:h-48 lg:w-32 lg:h-48 xl:w-36 xl:h-52 rounded-lg overflow-hidden">
                <Image
                   src={catalogCard.img}
                   alt={catalogCard.title}
