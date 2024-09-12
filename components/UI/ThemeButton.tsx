@@ -6,7 +6,7 @@ import {
    DropdownMenuItem,
    DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Moon, Sun } from "lucide-react"
+import { Laptop, Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 
 export default function ThemeButton() {
@@ -22,13 +22,16 @@ export default function ThemeButton() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="dark:bg-charcoal">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
+        <DropdownMenuItem onClick={() => setTheme("light")} className="flex items-center">
+          <Sun className="mr-2 h-4 w-4" />
           Світла
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
+        <DropdownMenuItem onClick={() => setTheme("dark")} className="flex items-center">
+          <Moon className="mr-2 h-4 w-4" />
           Темна
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
+        <DropdownMenuItem onClick={() => setTheme("system")} className="flex items-center">
+          <Laptop className="mr-2 h-4 w-4" />
           Системна
         </DropdownMenuItem>
       </DropdownMenuContent>
