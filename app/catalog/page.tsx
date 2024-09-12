@@ -1,7 +1,7 @@
 import CatalogSection from "@/components/CatalogSection";
 import FiltersSection from "@/components/FiltersSection";
-import BgLayout from "@/components/UI/BgLayout";
-import ContainerOffset from "@/components/UI/ContainerOffset";
+import BgLayout from "@/components/ui/BgLayout";
+import ContainerOffset from "@/components/ui/ContainerOffset";
 
 import catalogSection from "@/data/catalogSection/catalogSection.json";
 

@@ -7,8 +7,8 @@ function getLatestReviews() {
       const img = el.querySelector('img')?.src;
       const title = el.querySelector('.nm_b6')?.textContent;
       const body = el.querySelector('p.node-paragraph')?.textContent;
-      const views = el.querySelector('button.btn.is-link.variant-secondary')?.querySelector('span')?.textContent;
-      const likes = el.querySelector('button.btn.is-link.variant-secondary')?.querySelector('span')?.textContent;
+      const views = el.querySelector('button.btn.is-link.variant-secondaryStart')?.querySelector('span')?.textContent;
+      const likes = el.querySelector('button.btn.is-link.variant-secondaryStart')?.querySelector('span')?.textContent;
       const type = el.querySelectorAll('.mh_ey')[1]?.querySelector('span')?.textContent;
 
       const card = {

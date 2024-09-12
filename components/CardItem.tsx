@@ -21,8 +21,8 @@ export default function Cardtem({ item }: Props) {
                />
             </div>
          </div>
-         <h3 className='line-clamp-2 leading-tight max-h-14 text-[0.8rem] md:text-[0.925rem] font-semibold mt-1 dark:text-primary'>{item.title.slice(0, 32)}</h3>
-         <span className='text-secondary self-start text-[0.75rem] md:text-[0.875rem]'>Україна</span>
+         <h3 className='line-clamp-2 leading-tight max-h-14 text-[0.8rem] md:text-[0.925rem] font-semibold mt-1 dark:text-primaryStart'>{item.title.slice(0, 32)}</h3>
+         <span className='text-secondaryStart self-start text-[0.75rem] md:text-[0.875rem]'>Україна</span>
       </section>
    )
 }

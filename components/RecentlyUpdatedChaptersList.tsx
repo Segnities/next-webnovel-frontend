@@ -1,9 +1,8 @@
 'use client'
 
-import Divider from '@mui/material/Divider';
+import { Separator } from "@/components/ui/separator";
 import lastUpdatedChapters from "@/data/lastUpdatedChapters/lastUpdatedChapters.json";
 import { useState } from 'react';
-import Image from 'next/image';
 import RecentCard from './RecentCard';
 
 export default function RecentlyUpdatedChaptersList() {
@@ -15,7 +14,7 @@ export default function RecentlyUpdatedChaptersList() {
    return (
       <section>
          <h3 className='text-xl dark:text-silver my-1'>Останні оновлення</h3>
-         <Divider variant='fullWidth' />
+         <Separator />
          <div>
             {
                lastUpdatedChapters.slice(0, visibleItems).map(el => (

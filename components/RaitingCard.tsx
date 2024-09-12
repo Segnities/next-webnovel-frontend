@@ -44,8 +44,8 @@ export default function RatingCard({ idx, el }: Props) {
             />
          </div>
          <div className='col-span-3 ml-2'>
-            <h4 className={`line-clamp-2 leading-tight max-h-14 text-[1rem] lg:text-[0.875rem] font-semibold mt-1 dark:text-primary`}>{el.title}</h4>
-            <p className='text-xs text-secondary mt-1'>{el.country}</p>
+            <h4 className={`line-clamp-2 leading-tight max-h-14 text-[1rem] lg:text-[0.875rem] font-semibold mt-1 dark:text-primaryStart`}>{el.title}</h4>
+            <p className='text-xs text-secondaryStart mt-1'>{el.country}</p>
          </div>
       </div>
    )
