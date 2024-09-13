@@ -1,6 +1,265 @@
 [
    {
        "id": 1,
+       "title": "Благословення небожителів (Новела)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/tianguan-cifu/cover/4f2dc727-c2e7-4aab-935b-526e53d64427.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 2,
+       "title": "Точка зору Всезнаючого читача (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/omniscient-readers-viewpoint-novel/cover/e98f9da2-81c5-4a92-9870-6535022d0de7.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 3,
+       "title": "Нікчема з графської родини (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/trash-of-the-counts-family-novel/cover/lX2f1zQQG6Eu_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 4,
+       "title": "Смерть — єдиний кінець для лиходійки (Новела)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/death-is-the-only-ending-for-the-villain-novel-/cover/4a4681fa-7f17-46af-acd5-41712f092606.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 5,
+       "title": "Реінкарнація безробітного: Історія про пригоди в іншому світі (Новела)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/mushoku-tensei/cover/50679882-4259-459e-a283-c41eb63a3d5c.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 6,
+       "title": "Підняття рівня наодинці (веб-роман) (Новела)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/solo-leveling/cover/ENpNDMytyJ8B_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 7,
+       "title": "Ласкаво просимо до класу вищості (LN) (Новела)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-novel/cover/736bdd77-c534-442a-945d-55b8f3f0ff7d.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 8,
+       "title": "Повелитель таємниць (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/lord-of-the-mysteries/cover/nba6BwCT9zw0_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 9,
+       "title": "Початок після кінця (Новела)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/beginning-after-the-end-novel/cover/06cf9493-16dc-425e-8c2d-87b1b1a99f8d.jpg",
+       "country": "Англійська"
+   },
+   {
+       "id": 10,
+       "title": "Маленький Гриб (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/little-mushroom/cover/DVgcO7fF3qsz_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 11,
+       "title": "Легендарний механік (Новела)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/the-legendary-mechanic/cover/bZgKSOiGym0x_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 12,
+       "title": "Покидьок FFF-рангу (Новела)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/fff-class-trashero-novel/cover/wj4FW2qxvwr5_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 13,
+       "title": "Мати Учіння (Новела)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/mother-of-learning/cover/r2FLINcXKosD_250x350.jpg",
+       "country": "Англійська"
+   },
+   {
+       "id": 14,
+       "title": "Лиходій хоче жити (Новела)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/agdang-eun-salgo-sipda-novel/cover/9PMO5pqz1DPM_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 15,
+       "title": "Безсмертний П'яниця (Новела)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/immortal-drunkard/cover/ggQQ22q7nOXB_250x350.jpg",
+       "country": "Авторський"
+   },
+   {
+       "id": 16,
+       "title": "Калейдоскоп смерті (Новела)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/kaleidoscope-of-death-realnovel/cover/q42NIN9GNryq_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 17,
+       "title": "Верховний Маг (Новела)",
+       "rate": "9.2",
+       "img": "https://cover.imglib.info/uploads/cover/supreme-magus/cover/bIc29e1NOsg2_250x350.jpg",
+       "country": "Англійська"
+   },
+   {
+       "id": 18,
+       "title": "Під дубом (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/under-the-oak-tree-kr/cover/6MhKrzZq0oU4_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 19,
+       "title": "Влада книжкового черв'яка (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/ascendance-of-a-bookworm-novel/cover/7866b678-8891-4e27-8faf-f5ac3614ed17.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 20,
+       "title": "Другий шлюб імператриці (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/jaehon-hwanghu/cover/232e62ef-88c0-4b42-90fd-7cc2dcbc13a5.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 21,
+       "title": "Нехай буде благословенний цей прекрасний світ! (LN) (Новела)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/kono-subarashii-sekai-ni-shukufuku-wo/cover/20GGYCLqFTXa_250x350.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 22,
+       "title": "Мисливець-самогубець SSS-класу (Новела)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/sss-class-suicide-hunter/cover/ubtl0hPEBSVT_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 23,
+       "title": "Так, я павук, і що з того? (LN) (Новела)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/kumo-desu-ga-nani-kaln/cover/V1fKYV2sShK7_250x350.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 24,
+       "title": "Холод завжди мені подобався більше (Новела)",
+       "rate": "9.4",
+       "img": "https://cover.imglib.info/uploads/cover/xolod-vsegda-mne-byl-po-duse/cover/3aoE7HIlu4on_250x350.jpg",
+       "country": "Авторський"
+   },
+   {
+       "id": 25,
+       "title": "Реінкарнація безробітного (LN) (Новела)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/mushoku-tensei-isekai-ittara-honki-dasu-ln/cover/e8c22adc-3bc3-49be-b33a-619603d143f3.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 26,
+       "title": "Ангел по сусідству (Веб-Новела) (Новела)",
+       "rate": "9.7",
+       "img": "https://cover.imglib.info/uploads/cover/the-angel-next-door-spoils-me-rotten/cover/5iZl7GQ19AUw_250x350.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 27,
+       "title": "Вступний іспит до глобального університету (Новела)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/global-university-entrance-examination/cover/27738926-646e-418a-85a6-e95bbb7d7d9d.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 28,
+       "title": "Преподобний Гу (Новела)",
+       "rate": "9.3",
+       "img": "https://cover.imglib.info/uploads/cover/reverend-insanity/cover/qlEz3bAe5fI4_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 29,
+       "title": "Монолог фармацевта (Новела)",
+       "rate": "9.8",
+       "img": "https://cover.imglib.info/uploads/cover/kusuriya-no-hitorigoto-ln-novel/cover/207f347c-b21e-495a-80b4-8c153d753418.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 30,
+       "title": "Чорнокнижник Світу Магів (Новела)",
+       "rate": "8.8",
+       "img": "https://cover.imglib.info/uploads/cover/wujie-shushi-novel/cover/0lQ33WsBcn2L_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 31,
+       "title": "Я зовсім не слуга Демонічного Бога (Новела)",
+       "rate": "9.5",
+       "img": "https://cover.imglib.info/uploads/cover/im-really-not-the-demon-gods-lackey/cover/CXqyTEHA6kbE_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 32,
+       "title": "Хіба бути порочною дівчиною не краще? (Новела)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/isnt-being-a-wicked-woman-much-better-novel/cover/XdpTA3znYMgb_250x350.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 33,
+       "title": "Відродження кінозірки (Новела)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/rebirth-of-a-movie-star/cover/FHB2EhiAvvfy_250x350.jpg",
+       "country": "Китай"
+   },
+   {
+       "id": 34,
+       "title": "Тіньовий раб (Новела)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/shadow-slave/cover/bNDdhfdelnpF_250x350.jpg",
+       "country": "Англійська"
+   },
+   {
+       "id": 35,
+       "title": "Одного разу я стала принцесою (Новела)",
+       "rate": "9.6",
+       "img": "https://cover.imglib.info/uploads/cover/suddenly-became-a-princess-one-day-novel/cover/7177fc62-9f5d-4844-83cc-c49236c3f859.jpg",
+       "country": "Корея"
+   },
+   {
+       "id": 36,
+       "title": "Апофеоз Демона – Історія про Еволюцію Монстра (Новела)",
+       "rate": "9.1",
+       "img": "https://cover.imglib.info/uploads/cover/akuma-ha-ikai-de-kami-tonaru-jingai-shinka-novel/cover/EfHwvrLa0PX2_250x350.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 37,
+       "title": "Великий з Бродячих псів: Невідома історія створення детективного агентства (Новела)",
+       "rate": "9.9",
+       "img": "https://cover.imglib.info/uploads/cover/akuma-ha-ikai-de-kami-tonaru-jingai-shinka-novel/cover/EfHwvrLa0PX2_250x350.jpg",
+       "country": "Японія"
+   },
+   {
+       "id": 1,
        "title": "Благословение небожителей (Новелла)",
        "rate": "9.9",
        "img": "https://cover.imglib.info/uploads/cover/tianguan-cifu/cover/4f2dc727-c2e7-4aab-935b-526e53d64427.jpg",

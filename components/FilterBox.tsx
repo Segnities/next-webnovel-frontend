@@ -1,67 +1,56 @@
 'use client';
 
-import { BookText } from 'lucide-react';
-import { Tag } from 'lucide-react';
-import { ArrowRight } from 'lucide-react';
-import { MdOutlineTranslate } from "react-icons/md";
+import { ArrowRight, BookText, Sheet, Tag } from 'lucide-react';
 import { GiPlanetConquest } from "react-icons/gi";
+import { MdOutlineTranslate } from "react-icons/md";
 import { Separator } from './ui/separator';
+import { useState } from 'react';
+import ContentDrawer from './ui/content-drawer';
 
-export default function FiltersSection() {
+const filterItems = [
+   { id: 'genres', icon: BookText, label: 'Жанри' },
+   { id: 'tags', icon: Tag, label: 'Теги' },
+   { id: 'translation', icon: MdOutlineTranslate, label: 'Статус перекладу' },
+   { id: 'country', icon: GiPlanetConquest, label: 'Країна' },
+];
+
+export default function FilterBox() {
+   const [drawerOpen, setDrawerOpen] = useState<null | string>(null);
    return (
       <div className="mt-3 space-x-1 w-11/12 top-24 h-fit sticky dark:bg-eerieBlack bg-white p-2 rounded-md dark:text-silver">
-         <div className='space-y-4 text-center text-lg font-medium'>Фільтри</div>
-         <Separator className='my-2' />
-         <ul className='my-3 flex flex-col gap-y-4'>
-            <li className='flex items-center justify-between cursor-pointer rounded-md hover:bg-neutral-500 py-1 px-2 transition-colors duration-100'>
-               <div className='flex items-center gap-x-3'>
-                  <span>
-                     <BookText size={20} />
-                  </span>
-                  <span className='text-sm'>Жанри</span>
-               </div>
-               <div className='flex items-center gap-x-2'>
-                  <span className='text-xs truncate  max-w-[100px]'>Будь-який</span>
-                  <span><ArrowRight size={18} /></span>
-               </div>
-            </li>
-            <li className='flex items-center justify-between cursor-pointer rounded-md hover:bg-neutral-500 py-1 px-2 transition-colors duration-100'>
-               <div className='flex items-center gap-x-3'>
-                  <span>
-                     <Tag size={20} />
-                  </span>
-                  <span className='text-sm'>Теги</span>
-               </div>
-               <div className='flex items-center gap-x-2'>
-                  <span className='text-xs truncate  max-w-[100px]'>Будь-які</span>
-                  <span><ArrowRight size={18} /></span>
-               </div>
-            </li>
-            <li className='flex items-center justify-between cursor-pointer rounded-md hover:bg-neutral-500 py-1 px-2 transition-colors duration-100'>
-               <div className='flex items-center gap-x-3'>
-                  <span>
-                     <MdOutlineTranslate size={20} />
-                  </span>
-                  <span className='text-sm'>Статус перекладу</span>
-               </div>
-               <div className='flex items-center gap-x-2'>
-                  <span className='text-xs truncate  max-w-[100px]'>Будь-який</span>
-                  <span><ArrowRight size={18} /></span>
-               </div>
-            </li>
-            <li className='flex items-center justify-between cursor-pointer rounded-md hover:bg-neutral-500 py-1 px-2 transition-colors duration-100'>
-               <div className='flex items-center gap-x-3'>
-                  <span>
-                     <GiPlanetConquest size={20} />
-                  </span>
-                  <span className='text-sm'>Країна</span>
-               </div>
-               <div className='flex items-center gap-x-2'>
-                  <span className='text-xs truncate max-w-[100px]'>Будь-яка</span>
-                  <span><ArrowRight size={18} /></span>
-               </div>
-            </li>
-         </ul>
+         <div className="w-full relative">
+            <div className='space-y-4 text-center text-lg font-medium'>Фільтри</div>
+            <Separator className='my-2' />
+            <ul className='my-3 flex flex-col gap-y-4'>
+               {
+                  filterItems.map((item) => (
+                     <li
+                        key={item.id}
+                        className='flex items-center justify-between cursor-pointer rounded-md hover:bg-neutral-500 py-1 px-2 transition-colors duration-100'
+                        onClick={() => setDrawerOpen(item.id)}
+                     >
+                        <div className='flex items-center gap-x-3'>
+                           <span>
+                              <item.icon size={20} />
+                           </span>
+                           <span className='text-sm'>{item.label}</span>
+                        </div>
+                        <div className='flex items-center gap-x-2'>
+                           <span className='text-xs truncate  max-w-[100px]'>Будь-який</span>
+                           <span><ArrowRight size={18} /></span>
+                        </div>
+                     </li>
+                  ))
+               }
+            </ul>
+         </div>
+         {
+            drawerOpen ? (
+               <ContentDrawer isOpen={Boolean(drawerOpen)} onClose={() => setDrawerOpen(null)}>
+                  <h2>Content</h2>
+               </ContentDrawer>
+            ) : null
+         }
       </div>
    )
 }

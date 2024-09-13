@@ -1,3 +1,4 @@
+
 import CatalogSection from "@/components/CatalogSection";
 import FilterBox from "@/components/FilterBox";
 import BgLayout from "@/components/ui/BgLayout";
