@@ -1,5 +1,6 @@
 'use client'
 
+import { Suspense } from 'react';
 import recentSlider from "@/data/recentSlider.json";
 import { useMediaQuery } from 'react-responsive';
 import { A11y, Autoplay, Scrollbar } from 'swiper/modules';
@@ -47,7 +48,7 @@ export default function RecommendedNovelsSlider({
          {
             recentSlider.map(item => (
                <SwiperSlide key={uuidv4()}>
-                  <CardItem item={item}/>
+                  <CardItem item={item} />
                </SwiperSlide>
             ))
          }

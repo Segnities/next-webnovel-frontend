@@ -1,0 +1,24 @@
+import { ScrollArea } from "./scroll-area";
+
+export default function ScrollableWrapper({
+   children,
+   scrollable = true,
+   className
+}: Readonly<{
+   children: React.ReactNode;
+   scrollable: boolean;
+   className?: string;
+}>) {
+   if (scrollable) {
+      return (
+         <ScrollArea className={className}>
+            {children}
+         </ScrollArea>
+      )
+   }
+   return (
+      <>
+         {children}
+      </>
+   )
+}

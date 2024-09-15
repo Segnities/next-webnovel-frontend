@@ -7,7 +7,16 @@ import { Separator } from './ui/separator';
 import { useState } from 'react';
 import ContentDrawer from './ui/content-drawer';
 
-const filterItems = [
+import type { IconType } from 'react-icons';
+import type { LucideIcon } from 'lucide-react';
+
+interface FilterItem {
+   id: string;
+   icon: IconType | LucideIcon;
+   label: string;
+ }
+
+const filterItems: FilterItem[] = [
    { id: 'genres', icon: BookText, label: 'Жанри' },
    { id: 'tags', icon: Tag, label: 'Теги' },
    { id: 'translation', icon: MdOutlineTranslate, label: 'Статус перекладу' },
@@ -16,6 +25,19 @@ const filterItems = [
 
 export default function FilterBox() {
    const [drawerOpen, setDrawerOpen] = useState<null | string>(null);
+   const [selectedFilterItem, setSelectedFilterItem] = useState<FilterItem | null>(null);
+ 
+   const openDrawerContent = (item:FilterItem) => {
+      setDrawerOpen(item.id);
+      setSelectedFilterItem(item);
+
+   }
+
+   const closeDrawerContent = () => {
+      setDrawerOpen(null);
+      setSelectedFilterItem(null);
+   }
+
    return (
       <div className="mt-3 space-x-1 w-11/12 top-24 h-fit sticky dark:bg-eerieBlack bg-white p-2 rounded-md dark:text-silver">
          <div className="w-full relative">
@@ -27,7 +49,7 @@ export default function FilterBox() {
                      <li
                         key={item.id}
                         className='flex items-center justify-between cursor-pointer rounded-md hover:bg-neutral-500 py-1 px-2 transition-colors duration-100'
-                        onClick={() => setDrawerOpen(item.id)}
+                        onClick={() => openDrawerContent(item)}
                      >
                         <div className='flex items-center gap-x-3'>
                            <span>
@@ -46,8 +68,8 @@ export default function FilterBox() {
          </div>
          {
             drawerOpen ? (
-               <ContentDrawer isOpen={Boolean(drawerOpen)} onClose={() => setDrawerOpen(null)}>
-                  <h2>Content</h2>
+               <ContentDrawer isOpen={Boolean(drawerOpen)} onClose={closeDrawerContent}>
+                  <div className="text-lg dark:text-silver font-medium">{selectedFilterItem?.label}</div>
                </ContentDrawer>
             ) : null
          }
