@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 
 import CatalogCardsList from "./CatalogCardsList";
 import SortingSelector from "./SortingSelector";
-import ContainerOffset from "./ui/ContainerOffset";
+import ContainerOffset from "./ui/container-offset";
 
 interface Props {
    title: string;

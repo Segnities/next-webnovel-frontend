@@ -1,11 +1,11 @@
 'use client';
 
-import { zodResolver } from "@hookform/resolvers/zod"
-import { useForm } from "react-hook-form"
-import { z } from "zod"
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
 
-import { Button } from "@/components/ui/button"
-import { Checkbox } from "@/components/ui/checkbox"
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
    Form,
    FormControl,
@@ -15,15 +15,14 @@ import {
    FormLabel,
    FormMessage,
 } from "@/components/ui/form";
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui/input";
 
-import SearchBox from "../SearchBox"
-import ScrollableWrapper from "./scrollable-wrapper"
-import { useState } from "react";
 import { Search } from "lucide-react";
+import { useState } from "react";
+import ScrollableWrapper from "./scrollable-wrapper";
 
 interface CheckboxGroupProps {
-   title: string;
+   title?: string;
    description?: string;
    options: { id: string, label: string }[];
    scrollable?: boolean;
@@ -63,13 +62,19 @@ export function CheckboxGroup({
    }
 
    return (
-      <div>
+      <div className="h-full">
          {
             searchField ? <div className="mt-3 mb-4 relative">
                <div className="absolute flex items-center justify-center w-8 h-full">
                   <Search className="left-1 text-secondaryStart" size={18} />
                </div>
-               <Input type="search" placeholder="Шукати" value={searchTerm} onChange={handleSearchTermChange} />
+               <Input
+                  type="search"
+                  placeholder="Шукати"
+                  value={searchTerm}
+                  onChange={handleSearchTermChange}
+                  className="w-full bg-transparent border-secondaryStart rounded-md pl-8 pr-6 text-darkerGray dark:text-secondaryStart focus:outline-none border"
+               />
             </div> : null
          }
          <Form {...form}>
@@ -80,15 +85,21 @@ export function CheckboxGroup({
                   render={() => (
                      <FormItem>
                         <div className="mb-4">
-                           <FormLabel className="text-base">{title}</FormLabel>
                            {
-                              description ? (<FormDescription>
-                                 {description}
-                              </FormDescription>
+                              title ? (
+                                 <FormLabel className="text-base">{title}</FormLabel>
+                              ) : null
+                           }
+
+                           {
+                              description ? (
+                                 <FormDescription>
+                                    {description}
+                                 </FormDescription>
                               ) : null
                            }
                         </div>
-                        <ScrollableWrapper scrollable={scrollable}>
+                        <ScrollableWrapper scrollable={scrollable} className="w-full h-[calc(100vh-200px)]">
                            {options.map((item) => (
                               <FormField
                                  key={item.id}
@@ -98,7 +109,7 @@ export function CheckboxGroup({
                                     return (
                                        <FormItem
                                           key={item.id}
-                                          className="flex flex-row items-start space-x-3 space-y-0"
+                                          className="w-full flex flex-row items-start space-x-3 space-y-1"
                                        >
                                           <FormControl>
                                              <Checkbox

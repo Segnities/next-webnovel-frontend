@@ -9,25 +9,30 @@ import ContentDrawer from './ui/content-drawer';
 
 import type { IconType } from 'react-icons';
 import type { LucideIcon } from 'lucide-react';
+import GenresFilterContent from './genres-filter-content';
+import TranslationFilterContent from './translation-filter-content';
+import TagsFilterContent from './tags-filter-content';
+import CountryFilterContent from './country-filter-content';
 
 interface FilterItem {
    id: string;
    icon: IconType | LucideIcon;
    label: string;
- }
+   component: () => JSX.Element;
+}
 
 const filterItems: FilterItem[] = [
-   { id: 'genres', icon: BookText, label: 'Жанри' },
-   { id: 'tags', icon: Tag, label: 'Теги' },
-   { id: 'translation', icon: MdOutlineTranslate, label: 'Статус перекладу' },
-   { id: 'country', icon: GiPlanetConquest, label: 'Країна' },
+   { id: 'genres', icon: BookText, label: 'Жанри', component: GenresFilterContent },
+   { id: 'tags', icon: Tag, label: 'Теги', component: TagsFilterContent },
+   { id: 'translation', icon: MdOutlineTranslate, label: 'Статус перекладу', component: TranslationFilterContent },
+   { id: 'country', icon: GiPlanetConquest, label: 'Країна', component: CountryFilterContent },
 ];
 
 export default function FilterBox() {
    const [drawerOpen, setDrawerOpen] = useState<null | string>(null);
    const [selectedFilterItem, setSelectedFilterItem] = useState<FilterItem | null>(null);
- 
-   const openDrawerContent = (item:FilterItem) => {
+
+   const openDrawerContent = (item: FilterItem) => {
       setDrawerOpen(item.id);
       setSelectedFilterItem(item);
 
@@ -69,7 +74,10 @@ export default function FilterBox() {
          {
             drawerOpen ? (
                <ContentDrawer isOpen={Boolean(drawerOpen)} onClose={closeDrawerContent}>
-                  <div className="text-lg dark:text-silver font-medium">{selectedFilterItem?.label}</div>
+                  <div>
+                     <div className="text-lg dark:text-silver">{selectedFilterItem?.label}</div>
+                     {selectedFilterItem?.component && <selectedFilterItem.component />}
+                  </div>
                </ContentDrawer>
             ) : null
          }

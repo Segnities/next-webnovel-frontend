@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import Footer from "@/components/ui/Footer";
+import Footer from "@/components/ui/footer";
 
 export default function CatalogLayout({
    children,

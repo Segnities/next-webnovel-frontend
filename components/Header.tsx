@@ -1,5 +1,5 @@
-import HeaderContentLg from "./ui/HeaderContentLg";
-import HeaderContentMd from "./ui/HeaderContentMd";
+import HeaderContentLg from "./ui/header-content-lg";
+import HeaderContentMd from "./ui/heder-content-md";
 import { Montserrat } from "next/font/google";
 
 

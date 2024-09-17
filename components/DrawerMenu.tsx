@@ -16,7 +16,7 @@ import {
    CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { GiShintoShrineMirror, GiArtificialIntelligence } from "react-icons/gi"
-import ThemeButton from "./ui/ThemeButton";
+import ThemeButton from "@/components/ui/theme-button";
 import { User } from 'lucide-react';
 import { useState } from "react";
 import { FaCompass, FaFireAlt, FaNewspaper, FaQuestion, FaStar } from "react-icons/fa";
