@@ -2,7 +2,7 @@
 
 import { Bell, Bookmark, Layers } from 'lucide-react';
 import DrawerMenu from "../DrawerMenu";
-import LogoSection from "../LogoSection";
+import LogoSection from "../logo-section";
 
 export default function HeaderContentMd() {
    return (

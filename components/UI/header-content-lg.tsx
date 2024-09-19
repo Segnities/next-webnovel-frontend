@@ -2,11 +2,11 @@ import Link from "next/link";
 import { FaFireAlt } from "react-icons/fa";
 import { IoLayers } from "react-icons/io5";
 
-import LogoSection from "../LogoSection";
+import LogoSection from "../logo-section";
 import RecentBox from "../RecentBox";
 import SearchBox from "../SearchBox";
 import UnAuthUserSection from "../UnAuthUserSection";
-import HeaderMoreOptions from "../HeaderMoreOptions";
+import HeaderMoreOptions from "../header-more-options";
 
 export default function HeaderContentLg() {
    return (

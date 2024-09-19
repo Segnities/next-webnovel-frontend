@@ -7,7 +7,7 @@ import { A11y, Autoplay, Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { v4 as uuidv4 } from "uuid";
 
-import CardItem from "./CardItem";
+import CardItem from "./card-item";
 
 import 'swiper/css';
 

@@ -1,5 +1,5 @@
 import ContinueReading from "@/components/ContinueReading";
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import NowReading from "@/components/NowReading";
 import ContainerOffset from "@/components/ui/container-offset";
 import RecommendedNovelsSlider from "@/components/RecommendedNovelsSlider";

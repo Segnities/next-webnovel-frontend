@@ -19,7 +19,6 @@ import { Input } from "@/components/ui/input";
 
 import { Search } from "lucide-react";
 import { useState } from "react";
-import ScrollableWrapper from "./scrollable-wrapper";
 
 interface CheckboxGroupProps {
    title?: string;
@@ -62,9 +61,9 @@ export function CheckboxGroup({
    }
 
    return (
-      <div className="h-full">
+      <div className="flex flex-col h-full">
          {
-            searchField ? <div className="mt-3 mb-4 relative">
+            searchField ? <div className="mt-3 relative">
                <div className="absolute flex items-center justify-center w-8 h-full">
                   <Search className="left-1 text-secondaryStart" size={18} />
                </div>
@@ -78,28 +77,28 @@ export function CheckboxGroup({
             </div> : null
          }
          <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3">
+            <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col space-y-3 overflow-y-auto">
                <FormField
                   control={form.control}
                   name="items"
                   render={() => (
-                     <FormItem>
+                     <FormItem className="flex flex-col flex-grow overflow-hidden">
                         <div className="mb-4">
                            {
                               title ? (
-                                 <FormLabel className="text-base">{title}</FormLabel>
+                                 <FormLabel className="text-base mb-2">{title}</FormLabel>
                               ) : null
                            }
 
                            {
                               description ? (
-                                 <FormDescription>
+                                 <FormDescription className="mb-2">
                                     {description}
                                  </FormDescription>
                               ) : null
                            }
                         </div>
-                        <ScrollableWrapper scrollable={scrollable} className="w-full h-[calc(100vh-200px)]">
+                        <div className="flex-grow">
                            {options.map((item) => (
                               <FormField
                                  key={item.id}
@@ -109,7 +108,7 @@ export function CheckboxGroup({
                                     return (
                                        <FormItem
                                           key={item.id}
-                                          className="w-full flex flex-row items-start space-x-3 space-y-1"
+                                          className="flex items-center space-x-3"
                                        >
                                           <FormControl>
                                              <Checkbox
@@ -133,12 +132,12 @@ export function CheckboxGroup({
                                  }}
                               />
                            ))}
-                        </ScrollableWrapper>
+                        </div>
                         <FormMessage />
                      </FormItem>
                   )}
                />
-               <Button type="submit">Скинути</Button>
+               <Button type="submit" className="mt-3">Скинути</Button>
             </form>
          </Form>
       </div>

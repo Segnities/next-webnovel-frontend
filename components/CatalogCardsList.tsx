@@ -1,4 +1,4 @@
-import CatalogCard from "./CatalogCard";
+import CatalogCard from "./catalog-card";
 
 interface Props {
    list: {

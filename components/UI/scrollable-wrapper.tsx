@@ -11,9 +11,9 @@ export default function ScrollableWrapper({
 }>) {
    if (scrollable) {
       return (
-         <ScrollArea className={className}>
+         <div className={className + ' overflow-y-scroll'}>
             {children}
-         </ScrollArea>
+         </div>
       )
    }
    return (
