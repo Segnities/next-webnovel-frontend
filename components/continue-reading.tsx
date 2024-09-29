@@ -1,5 +1,5 @@
 import continueReading from "@/data/continueReading.json";
-import CardInline from "./CardInline";
+import CardInline from "./card-inline";
 
 export default function ContinueReading() {
    return (

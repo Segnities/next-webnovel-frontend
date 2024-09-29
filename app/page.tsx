@@ -1,15 +1,15 @@
-import ContinueReading from "@/components/ContinueReading";
-import Header from "@/components/Header";
+import ContinueReading from "@/components/continue-reading";
+import Header from "@/components/header";
 import NowReading from "@/components/NowReading";
-import ContainerOffset from "@/components/ui/ContainerOffset";
+import ContainerOffset from "@/components/ui/container-offset";
 import RecommendedNovelsSlider from "@/components/RecommendedNovelsSlider";
 import RecentlyUpdatedChaptersList from "@/components/RecentlyUpdatedChaptersList";
 import { ArrowRight } from "lucide-react";
-import NewsList from "@/components/NewsList";
+import NewsList from "@/components/news-list";
 import LatestReviewsList from "@/components/LatestReviewsList";
-import NewNovelsSlider from "@/components/NewNovelsSlider";
-import Footer from "@/components/ui/Footer";
-import BgLayout from "@/components/ui/BgLayout";
+import NewNovelsSlider from "@/components/new-novels-slider";
+import Footer from "@/components/ui/footer";
+import BgLayout from "@/components/ui/bg-layout";
 
 
 export default function Home() {

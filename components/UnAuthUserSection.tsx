@@ -1,7 +1,7 @@
 import { IoEnterOutline } from "react-icons/io5";
 
 import Link from "next/link";
-import ThemeButton from "./ui/ThemeButton";
+import ThemeButton from "./ui/theme-button";
 import {
    Tooltip,
    TooltipContent,

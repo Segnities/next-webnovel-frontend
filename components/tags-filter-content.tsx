@@ -1,0 +1,60 @@
+import { CheckboxGroup } from "./ui/checkbox-group"
+
+const tags = [
+   { id: 'antihero', label: 'Антигерой' },
+   { id: 'strong-main-character', label: 'Сильний головний герой' },
+   { id: 'system', label: 'Система' },
+   { id: 'cultivation', label: 'Культивація' },
+   { id: 'reincarnation', label: 'Реінкарнація' },
+   { id: 'isekai', label: 'Ісекай' },
+   { id: 'magic', label: 'Магія' },
+   { id: 'post-apocalyptic', label: 'Постапокаліпсис' },
+   { id: 'virtual-reality', label: 'Віртуальна реальність' },
+   { id: 'harem', label: 'Гарем' },
+   { id: 'school', label: 'Школа' },
+   { id: 'revenge', label: 'Помста' },
+   { id: 'survival', label: 'Виживання' },
+   { id: 'politics', label: 'Політика' },
+   { id: 'war', label: 'Війна' },
+   { id: 'romance', label: 'Романтика' },
+   { id: 'time-travel', label: 'Подорожі в часі' },
+   { id: 'monsters', label: 'Монстри' },
+   { id: 'dungeon', label: 'Підземелля' },
+   { id: 'gamelit', label: 'Геймліт' },
+   { id: 'martial-arts', label: 'Бойові мистецтва' },
+   { id: 'empire', label: 'Імперія' },
+   { id: 'academy', label: 'Академія' },
+   { id: 'artifacts', label: 'Артефакти' },
+   { id: 'demons', label: 'Демони' },
+   { id: 'dragons', label: 'Дракони' },
+   { id: 'elves', label: 'Ельфи' },
+   { id: 'guilds', label: 'Гільдії' },
+   { id: 'hidden-abilities', label: 'Приховані здібності' },
+   { id: 'legends', label: 'Легенди' },
+   { id: 'loli', label: 'Лолі' },
+   { id: 'mafia', label: 'Мафія' },
+   { id: 'mercenaries', label: 'Найманці' },
+   { id: 'mythology', label: 'Міфологія' },
+   { id: 'ninja', label: 'Ніндзя' },
+   { id: 'philosophy', label: 'Філософія' },
+   { id: 'psychology', label: 'Психологія' },
+   { id: 'strategy', label: 'Стратегія' },
+   { id: 'aliens', label: 'Прибульці' },
+   { id: 'cyberpunk', label: 'Кіберпанк' },
+   { id: 'dystopia', label: 'Дистопія' },
+   { id: 'steampunk', label: 'Стімпанк' },
+   { id: 'zombies', label: 'Зомбі' },
+   { id: 'superheroes', label: 'Супергерої' },
+   { id: 'space-opera', label: 'Космічна опера' },
+   { id: 'time-loop', label: 'Часова петля' },
+   { id: 'artificial-intelligence', label: 'Штучний інтелект' },
+   { id: 'multiverse', label: 'Мультивсесвіт' },
+   { id: 'parallel-worlds', label: 'Паралельні світи' },
+   { id: 'conspiracy', label: 'Змова' }
+]
+
+export default function TagsFilterContent() {
+   return (
+      <CheckboxGroup options={tags} scrollable={true} searchField={true} />
+   );
+}

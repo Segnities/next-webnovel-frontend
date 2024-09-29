@@ -16,7 +16,7 @@ import {
    CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { GiShintoShrineMirror, GiArtificialIntelligence } from "react-icons/gi"
-import ThemeButton from "./ui/ThemeButton";
+import ThemeButton from "@/components/ui/theme-button";
 import { User } from 'lucide-react';
 import { useState } from "react";
 import { FaCompass, FaFireAlt, FaNewspaper, FaQuestion, FaStar } from "react-icons/fa";
@@ -32,7 +32,7 @@ export default function DrawerMenu() {
    return (
       <Sheet>
          <SheetTrigger asChild>
-            <Menu size={24} />
+            <Menu size={18} />
          </SheetTrigger>
          <SheetContent className="dark:bg-charcoal">
             <SheetHeader>
@@ -43,9 +43,9 @@ export default function DrawerMenu() {
                   <SearchBox />
                   <ThemeButton />
                </div>
-               <Button variant="default" className="hover:bg-[#1e88e5] bg-[#42a5f5] w-full flex items-center justify-between rounded-sm my-2">
+               <Button variant="default" className="hover:bg-[#1e88e5] text-white bg-[#42a5f5] w-full flex items-center justify-between rounded-sm my-2">
                   <span>Вхід/Реєстрація</span>
-                  <User size={21} />
+                  <User size={18} />
                </Button>
                <Collapsible
                   open={contentCollapsible}
