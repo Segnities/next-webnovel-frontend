@@ -1,5 +1,5 @@
 import latestReviews from "@/data/latestReviews/latestReviews.json";
-import ReviewCard from "./ReviewCard";
+import ReviewCard from "./review-card";
 
 export default function LatestReviewsList() {
 

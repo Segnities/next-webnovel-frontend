@@ -1,18 +1,18 @@
 'use client';
 
-import { ArrowRight, BookText, Sheet, Tag } from 'lucide-react';
+import { ArrowRight, BookText, Tag } from 'lucide-react';
+import { useState } from 'react';
 import { GiPlanetConquest } from "react-icons/gi";
 import { MdOutlineTranslate } from "react-icons/md";
-import { Separator } from './ui/separator';
-import { useState } from 'react';
 import ContentDrawer from './ui/content-drawer';
+import { Separator } from './ui/separator';
 
-import type { IconType } from 'react-icons';
 import type { LucideIcon } from 'lucide-react';
-import GenresFilterContent from './genres-filter-content';
-import TranslationFilterContent from './translation-filter-content';
-import TagsFilterContent from './tags-filter-content';
+import type { IconType } from 'react-icons';
 import CountryFilterContent from './country-filter-content';
+import GenresFilterContent from './genres-filter-content';
+import TagsFilterContent from './tags-filter-content';
+import TranslationFilterContent from './translation-filter-content';
 
 interface FilterItem {
    id: string;
@@ -28,7 +28,7 @@ const filterItems: FilterItem[] = [
    { id: 'country', icon: GiPlanetConquest, label: 'Країна', component: CountryFilterContent },
 ];
 
-export default function FilterBox() {
+export default function FilterBoxLg() {
    const [drawerOpen, setDrawerOpen] = useState<null | string>(null);
    const [selectedFilterItem, setSelectedFilterItem] = useState<FilterItem | null>(null);
 

@@ -1,5 +1,5 @@
-import ReduxProvider from "@/components/providers/ReduxProvider";
-import ThemeProvider from "@/components/providers/ThemeProvider";
+import ReduxProvider from "@/components/providers/redux-provider";
+import ThemeProvider from "@/components/providers/theme-provider";
 import type { Metadata } from "next";
 import "./globals.css";
 

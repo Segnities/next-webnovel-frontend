@@ -2,7 +2,7 @@ import gainingPopularityBooks from "@/data/nowReading/gainingPopularity.json";
 import newBooks from "@/data/nowReading/new.json";
 import popularBooks from "@/data/nowReading/popular.json";
 import { ArrowRight } from "lucide-react";
-import RatingCard from './RaitingCard';
+import RatingCard from './rating-card';
 
 export default function NowReading() {
    return (

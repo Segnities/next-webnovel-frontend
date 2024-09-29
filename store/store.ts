@@ -1,10 +1,11 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import themeReducer from "./features/theme/themeSlice";
-
+import contentSortingReducer from "./features/content-sorting/contentSortingSlice";
 export const store = configureStore({
-   reducer: {
-      theme: themeReducer
-   }
+   reducer: combineReducers({
+      theme: themeReducer,
+      contentSorting: contentSortingReducer
+   })
 })
 
 export type RootState = ReturnType<typeof store.getState>;

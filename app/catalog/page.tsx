@@ -1,6 +1,6 @@
 
-import CatalogSection from "@/components/CatalogSection";
-import FilterBox from "@/components/filter-box";
+import CatalogSection from "@/components/catalog-section";
+import FilterBoxLg from "@/components/filter-box-lg";
 import BgLayout from "@/components/ui/bg-layout";
 
 import catalogSection from "@/data/catalogSection/catalogSection.json";
@@ -13,7 +13,7 @@ export default function CatalogPage() {
                <CatalogSection title="Каталог" list={catalogSection} />
             </div>
             <div className="lg:col-span-5 hidden lg:flex justify-center">
-               <FilterBox />  
+               <FilterBoxLg />  
             </div>
          </div>
       </BgLayout>
