@@ -1,5 +1,5 @@
 import InfoItem from "./info-item";
-import { Card, CardContent } from "./ui/card";
+import { Card } from "./ui/card";
 
 const infoItems = [
    {

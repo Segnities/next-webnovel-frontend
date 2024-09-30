@@ -12,6 +12,7 @@ interface Props {
 
 export default function CatalogCard(props: Props) {
    const { catalogCard } = props;
+
    return (
       <section className="mb-4">
          <div className="relative">
@@ -24,6 +25,9 @@ export default function CatalogCard(props: Props) {
                   alt={catalogCard.title}
                   fill={true}
                   quality={98}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL={catalogCard.img}
                />
             </div>
          </div>

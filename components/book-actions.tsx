@@ -17,7 +17,7 @@ export default function BookActions() {
          <Button variant="outline" className="w-full text-xs">
             <BookOpenText className="mr-2" size={16}/>
             Продовжити читати
-            <span className="ml-2 text-xs">2/366</span>
+            <span className="ml-2 text-xs">2 / 366</span>
          </Button>
          <Select>
             <SelectTrigger>
