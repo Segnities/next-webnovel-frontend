@@ -34,7 +34,7 @@ export default function BookChaptersList() {
                      </SelectGroup>
                   </SelectContent>
                </Select>
-               <SearchInput />
+               <SearchInput placeholder="Пошук номеру розділу" />
             </div>
             <Separator className="w-full h-px text-zinc-400 dark:text-zinc-600" />
             <div className="scroll-y-auto overflow-y-auto max-h-[740px]">

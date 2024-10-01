@@ -30,7 +30,7 @@ export default function CatalogSection(props: Props) {
                   <PopoverSortingSelector />
                </div>
             </div>
-            <SearchInput />
+            <SearchInput placeholder="Пошук по назві" />
             <CatalogCardsList list={list} />
          </section>
       </ContainerOffset>
