@@ -1,15 +1,15 @@
-import Link from "next/link"
-import { Separator } from "./ui/separator"
 import {
    Select,
    SelectContent,
    SelectGroup,
    SelectItem,
-   SelectLabel,
    SelectTrigger,
-   SelectValue,
-} from "@/components/ui/select"
+   SelectValue
+} from "@/components/ui/select";
 import { OrderItem } from "@/store/features/content-sorting/contentSortingSlice";
+import Link from "next/link";
+import SearchInput from "./ui/search-input";
+import { Separator } from "./ui/separator";
 
 const sortOrderOptions: OrderItem[] = [
    { id: 'desc', label: 'За спаданням', value: 'desc' },
@@ -19,7 +19,6 @@ const sortOrderOptions: OrderItem[] = [
 export default function BookChaptersList() {
    return (
       <div className="flex flex-col gap-2 rounded-lg border border-zinc-400 dark:border-zinc-600 mt-4">
-         <h3 className="text-lg font-medium ml-4 mt-2">Розділи</h3>
          <Separator className="w-full h-px text-zinc-400 dark:text-zinc-600" />
          <div className="flex flex-col gap-2 px-1">
             <div className="flex items-center justify-between py-2 px-1">
@@ -35,6 +34,7 @@ export default function BookChaptersList() {
                      </SelectGroup>
                   </SelectContent>
                </Select>
+               <SearchInput />
             </div>
             <Separator className="w-full h-px text-zinc-400 dark:text-zinc-600" />
             <div className="scroll-y-auto overflow-y-auto max-h-[740px]">
