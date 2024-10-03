@@ -41,6 +41,9 @@ export default function RatingCard({ idx, el }: Props) {
                   borderRadius: "10px"
                }}
                quality={90}
+               loading="lazy"
+               placeholder="blur"
+               blurDataURL={el.img}
             />
          </div>
          <div className='col-span-3 ml-2'>

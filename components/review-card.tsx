@@ -39,7 +39,9 @@ export default function ReviewCard({el}: Props) {
                      alt={el.title}
                      fill={true}
                      quality={95}
-                     className="object-cover"
+                     loading="lazy"
+                     placeholder="blur"
+                     blurDataURL={el.img}
                   />
                </div>
                <div className="p-2">

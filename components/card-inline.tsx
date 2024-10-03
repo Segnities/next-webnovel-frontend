@@ -26,6 +26,10 @@ export default function itemItem({ item, percent }: Props) {
                borderRadius: "5px"
             }
             }
+            quality={98}
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={item.img}  
          />
          < div className="flex flex-col gap-1" >
             <h3 className="line-clamp-2 leading-tight max-h-14 text-[0.915rem] lg:text-[0.875rem] font-semibold mt-1 dark:text-primaryStart">{item.title}</h3>

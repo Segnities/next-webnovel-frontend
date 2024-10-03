@@ -1,3 +1,4 @@
+import ChapterContent from "@/components/chapter-content";
 import ChapterTextContent from "@/components/chapter-text-content";
 import { Metadata } from "next";
 
@@ -235,10 +236,7 @@ const chapterText = `<div class="text-content"><p>Я жил припеваючи
 export default function ChapterPage() {
    return (
       <div>
-         <main className="container mx-auto">
-            <h1 className="lg:text-3xl text-2xl font-bold">Розділ 1. Хіба це не повинен був бути епілог?</h1>
-            <ChapterTextContent text={chapterText} />
-         </main>
+         <ChapterContent content={chapterText} />
       </div>
    )
 }

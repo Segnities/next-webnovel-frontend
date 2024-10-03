@@ -18,6 +18,9 @@ export default function Cardtem({ item }: Props) {
                   alt={item.title.slice(0, 15)}
                   fill={true}
                   quality={98}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL={item.img}
                />
             </div>
          </div>

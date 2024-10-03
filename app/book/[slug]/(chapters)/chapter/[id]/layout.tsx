@@ -1,3 +1,5 @@
+import ChapterHeader from "@/components/chapter-header";
+
 export default function ChapterLayout({
    children,
 }: Readonly<{
@@ -5,6 +7,7 @@ export default function ChapterLayout({
 }>) {
    return (
       <>
+         <ChapterHeader />
          {children}
       </>
    )
