@@ -1,13 +1,20 @@
 'use client';
 
-import { Montserrat } from "next/font/google";
-import { useState, useEffect } from "react";
-import { ArrowLeft, Settings } from 'lucide-react';
 import {
    Popover,
    PopoverContent,
    PopoverTrigger,
 } from "@/components/ui/popover";
+import {
+   Sheet,
+   SheetContent,
+   SheetTrigger
+} from "@/components/ui/sheet";
+import { ArrowLeft, Settings } from 'lucide-react';
+import { Montserrat } from "next/font/google";
+import { useEffect, useState } from "react";
+import ChapterSettings from "./chapter-settings";
+import ThemeButton from "./ui/theme-button";
 
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -79,9 +86,17 @@ export default function ChapterHeader() {
                <div className="text-base dark:text-silver">Герой FFF-рангу</div>
             </div>
          </div>
-         <div className="flex items-center">
+         <div className="flex justify-between items-center gap-x-5">
+            <ThemeButton />
             <div>
-               <Settings className="cursor-pointer" />
+               <Sheet>
+                  <SheetTrigger asChild>
+                     <Settings className="cursor-pointer" />
+                  </SheetTrigger>
+                  <SheetContent>
+                     <ChapterSettings />
+                  </SheetContent>
+               </Sheet>
             </div>
          </div>
       </header>
