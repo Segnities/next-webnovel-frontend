@@ -74,7 +74,7 @@ export default function ChapterTextContent({ text }: { text: string }) {
             }
          `}</style>
          <div
-            className="chapter-content"
+            className="chapter-content p-3 lg:p-1"
             style={{
                ...chapterContentStyle as React.CSSProperties,
                fontFamily: selectedFont?.style?.fontFamily ? selectedFont?.style?.fontFamily : 'sans-serif'

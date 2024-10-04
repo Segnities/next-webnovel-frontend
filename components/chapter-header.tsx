@@ -1,5 +1,6 @@
 'use client';
 
+import { CircleChevronLeft, CircleChevronRight, Bookmark } from 'lucide-react';
 import {
    Popover,
    PopoverContent,
@@ -8,6 +9,9 @@ import {
 import {
    Sheet,
    SheetContent,
+   SheetDescription,
+   SheetHeader,
+   SheetTitle,
    SheetTrigger
 } from "@/components/ui/sheet";
 import { ArrowLeft, Settings } from 'lucide-react';
@@ -48,13 +52,13 @@ export default function ChapterHeader() {
       <header
          className={`
         dark:bg-zinc-950 bg-white border border-zinc-400 dark:text-silver 
-        w-full h-12 flex items-center justify-between px-3 shadow-md lg:shadow-lg 
+        w-full h-14 flex items-center justify-between px-3 shadow-md lg:shadow-lg 
         border-slate-100/35 sticky transition-all duration-300 z-30
         ${montserrat.className}
-        ${isVisible ? 'top-0' : '-top-12'}
+        ${isVisible ? 'lg:top-0' : 'lg:-top-14'}
       `}
       >
-         <div className="flex items-center justify-between gap-x-3 w-1/4">
+         <div className="flex items-center justify-between gap-x-3 w-1/2">
             <Popover>
                <PopoverTrigger asChild>
                   <span className="flex items-center gap-2 cursor-pointer">
@@ -81,12 +85,37 @@ export default function ChapterHeader() {
                   </ul>
                </PopoverContent>
             </Popover>
-            <div className="flex flex-col items-center">
-               <div className="text-secondary text-sm">FFF-class trashero</div>
-               <div className="text-base dark:text-silver">Герой FFF-рангу</div>
-            </div>
+            <nav className="lg:hidden flex items-center justify-between">
+               <div>
+                  <CircleChevronLeft className='cursor-pointer' />
+               </div>
+               <div className="cursor-pointer px-2 text-xs">
+                  Том 1 Глава 1
+               </div>
+               <div>
+                  <CircleChevronRight className='cursor-pointer' />
+               </div>
+            </nav>
+            <nav className="hidden w-full lg:flex gap-x-4 items-center justify-between">
+               <div className="flex flex-col">
+                  <div className="text-base">Герой FFF-рангу </div>
+                  <div className="text-sm text-secondary">FFF class trash hero</div>
+               </div>
+               <div className="flex items-center gap-x-4">
+                  <div className="cursor-pointer">
+                     Назад
+                  </div>
+                  <div className="cursor-pointer px-6 py-1 rounded-sm border border-secondary">
+                     Том 1 Глава 1
+                  </div>
+                  <div className="cursor-pointer">
+                     Далі
+                  </div>
+               </div>
+            </nav>
          </div>
          <div className="flex justify-between items-center gap-x-5">
+            <Bookmark className="cursor-pointer" />
             <ThemeButton />
             <div>
                <Sheet>
@@ -94,6 +123,9 @@ export default function ChapterHeader() {
                      <Settings className="cursor-pointer" />
                   </SheetTrigger>
                   <SheetContent className="lg:min-w-[42vw] min-w-[100vw]">
+                     <SheetHeader>
+                        <SheetTitle>Налаштування</SheetTitle>
+                     </SheetHeader>
                      <ChapterSettings />
                   </SheetContent>
                </Sheet>
