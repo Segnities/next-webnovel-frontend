@@ -93,7 +93,7 @@ export default function ChapterHeader() {
                   <SheetTrigger asChild>
                      <Settings className="cursor-pointer" />
                   </SheetTrigger>
-                  <SheetContent>
+                  <SheetContent className="lg:min-w-[42vw] min-w-[100vw]">
                      <ChapterSettings />
                   </SheetContent>
                </Sheet>

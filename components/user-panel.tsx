@@ -9,7 +9,7 @@ import {
    TooltipTrigger,
 } from "@/components/ui/tooltip"
 
-export default function UnAuthUserSection() {
+export default function UserPanel() {
    return (
       <div className="flex items-center lg:gap-6">
          <ThemeButton />

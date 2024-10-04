@@ -3,9 +3,9 @@ import { FaFireAlt } from "react-icons/fa";
 import { IoLayers } from "react-icons/io5";
 
 import LogoSection from "../logo-section";
-import RecentBox from "../RecentBox";
-import SearchBox from "../SearchBox";
-import UnAuthUserSection from "../UnAuthUserSection";
+import RecentBox from "../recent-box";
+import SearchBox from "../search-box";
+import UserPanel from "../user-panel";
 import HeaderMoreOptions from "../header-more-options";
 
 export default function HeaderContentLg() {
@@ -25,7 +25,7 @@ export default function HeaderContentLg() {
             <RecentBox />
             <HeaderMoreOptions/>
          </div>
-         <UnAuthUserSection />
+         <UserPanel />
       </div>
    )
 }

@@ -4,18 +4,18 @@ export interface ChapterSettingsState {
    fontSize: number;
    lineHeight: number;
    fontFamily: string;
-   textAlign: string;
+   textAlign: boolean;
    containerWidth: number;
    paragraphSpacing: number;
 }
 
 const initialState: ChapterSettingsState = {
-   fontSize: 1.1,
+   fontSize: 14,
    lineHeight: 1.3,
    fontFamily: 'Inter',
-   textAlign: 'justify',
+   textAlign: false,
    containerWidth: 100,
-   paragraphSpacing: 1.3,
+   paragraphSpacing: 5,
 };
 
 const chapterSettingsSlice = createSlice({
@@ -31,7 +31,7 @@ const chapterSettingsSlice = createSlice({
       setFontFamily: (state, action: PayloadAction<string>) => {
          state.fontFamily = action.payload;
       },
-      setTextAlign: (state, action: PayloadAction<string>) => {
+      setTextAlign: (state, action: PayloadAction<boolean>) => {
          state.textAlign = action.payload;
       }, 
       setContainerWidth: (state, action: PayloadAction<number>) => {
