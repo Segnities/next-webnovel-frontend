@@ -33,31 +33,38 @@ export default function ChapterTextContent({ text }: { text: string }) {
 
    const selectedFont = fonts[fontFamily as keyof typeof fonts];
    const calculateLetterSpacing = (fontSize: number, containerWidth: number): number => {
-      const baseCoefficient = 0.05;
-      const widthCoefficient = Math.max(0, (1000 - containerWidth) / 10000);
-      const fontSizeCoefficient = Math.max(0, (24 - fontSize) / 100);
-      const letterSpacing = baseCoefficient + widthCoefficient + fontSizeCoefficient;
-
+      const baseCoefficient = 0.01;
+      const widthCoefficient = Math.max(0, (1000 - containerWidth) / 20000);
+      const fontSizeCoefficient = Math.max(0, (24 - fontSize) / 200);
+      const letterSpacing = Math.min(0.05, baseCoefficient + widthCoefficient + fontSizeCoefficient);
+   
       return Math.round(letterSpacing * 100) / 100;
    };
-   const letterSpacing = useMemo(() => calculateLetterSpacing(fontSize, containerWidth), [fontSize, containerWidth]);
+   const calculateLineHeight = (fontSize: number): number => {
+      const baseCoefficient = 1.2;
+      const fontSizeCoefficient = Math.max(0, (24 - fontSize) / 100);
+      const lineHeight = baseCoefficient + fontSizeCoefficient;
+
+      return Math.round(lineHeight * 100) / 100;
+   };
+
+   const autoLetterSpacing = useMemo(() => calculateLetterSpacing(fontSize, containerWidth), [fontSize, containerWidth]);
+   const autoLineHeight = useMemo(() => calculateLineHeight(fontSize), [fontSize]);
    const chapterContentStyle = useMemo(() => ({
       '--font-size': `${fontSize}px`,
       '--line-height': `${lineHeight}rem`,
       '--text-align': textAlign ? 'left' : 'justify',
       '--container-width': `${containerWidth}%`,
       '--paragraph-spacing': `${paragraphSpacing}px`,
-      '--letter-spacing': `${letterSpacing}em`,
-      '--font-family': selectedFont?.style?.fontFamily ?? 'sans-serif',
+      '--letter-spacing': `${autoLetterSpacing}em`,
       fontSize: `var(--font-size)`,
       lineHeight: `var(--line-height)`,
       textAlign: `var(--text-align)`,
       textIndent: '1.5rem',
       width: `var(--container-width)`,
       margin: '0 auto',
-      fontFamily: `var(--font-family)`,
       letterSpacing: `var(--letter-spacing)`,
-   }), [fontSize, lineHeight, textAlign, containerWidth, paragraphSpacing, selectedFont]);
+   }), [fontSize, lineHeight, textAlign, containerWidth, paragraphSpacing]);
 
    return (
       <>
@@ -68,7 +75,10 @@ export default function ChapterTextContent({ text }: { text: string }) {
          `}</style>
          <div
             className="chapter-content"
-            style={chapterContentStyle as React.CSSProperties}
+            style={{
+               ...chapterContentStyle as React.CSSProperties,
+               fontFamily: selectedFont?.style?.fontFamily ? selectedFont?.style?.fontFamily : 'sans-serif'
+            }}
             dangerouslySetInnerHTML={{ __html: text }}
          />
       </>
