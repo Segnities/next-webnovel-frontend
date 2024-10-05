@@ -16,8 +16,8 @@ const initialState: ChapterSettingsState = {
    fontFamily: 'Inter',
    textAlignLeft: false,
    abstractSpacing: false,
-   containerWidth: 100,
-   paragraphSpacing: 5,
+   containerWidth: 66,
+   paragraphSpacing: 16,
 };
 
 const chapterSettingsSlice = createSlice({
