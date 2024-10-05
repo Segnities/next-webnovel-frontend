@@ -38,7 +38,7 @@ const fonts = {
 export default function ChapterSettings() {
    const { containerWidth, fontSize, lineHeight, textAlignLeft: textAlign, paragraphSpacing, abstractSpacing } = useAppSelector(state => state.chapterSettings);
    const dispatch = useAppDispatch();
-
+   
    return (
       <ScrollArea className="w-full h-full pr-6 mt-8" >
          <div className="flex flex-col gap-y-5 mt-8">
@@ -110,6 +110,7 @@ export default function ChapterSettings() {
                <Slider defaultValue={[containerWidth]} min={40} max={100} step={1} className="mt-3" onValueChange={(value => dispatch(setContainerWidth(value[0])))} />
             </div>
          </div>
+         <div className="my-10"/>
       </ScrollArea>
    )
 }

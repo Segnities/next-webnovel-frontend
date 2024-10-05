@@ -17,6 +17,8 @@ import { Montserrat } from "next/font/google";
 import { useEffect, useState } from "react";
 import ChapterSettings from "./chapter-settings";
 import ThemeButton from "./ui/theme-button";
+import ChapterList from "./chapter-list";
+import SearchInput from "./ui/search-input";
 
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -104,7 +106,20 @@ export default function ChapterHeader() {
                      Назад
                   </div>
                   <div className="cursor-pointer px-6 py-1 rounded-sm border border-secondary">
-                     Том 1 Глава 1
+                     <Sheet>
+                        <SheetTrigger asChild>
+                           <span>Том 1 Глава 1</span>
+                        </SheetTrigger>
+                        <SheetContent side={'left'} className="lg:min-w-[42vw] min-w-[100vw]" >
+                           <SheetHeader>
+                              <SheetTitle>Список розділів</SheetTitle>
+                              <SearchInput placeholder="Пошук номеру розділу" />
+                           </SheetHeader>
+                           <div className="flex flex-col gap-y-2">
+                              <ChapterList />
+                           </div>
+                        </SheetContent>
+                     </Sheet>
                   </div>
                   <div className="cursor-pointer">
                      Далі
