@@ -4,8 +4,9 @@ export interface ChapterSettingsState {
    fontSize: number;
    lineHeight: number;
    fontFamily: string;
-   textAlign: boolean;
+   textAlignLeft: boolean;
    containerWidth: number;
+   abstractSpacing: boolean;
    paragraphSpacing: number;
 }
 
@@ -13,7 +14,8 @@ const initialState: ChapterSettingsState = {
    fontSize: 14,
    lineHeight: 1.3,
    fontFamily: 'Inter',
-   textAlign: false,
+   textAlignLeft: false,
+   abstractSpacing: false,
    containerWidth: 100,
    paragraphSpacing: 5,
 };
@@ -25,6 +27,9 @@ const chapterSettingsSlice = createSlice({
       setFontSize: (state, action: PayloadAction<number>) => {
          state.fontSize = action.payload;
       },
+      setAbstractSpacing: (state, action: PayloadAction<boolean>) => {
+         state.abstractSpacing = action.payload;
+      },
       setLineHeight: (state, action: PayloadAction<number>) => {
          state.lineHeight = action.payload;
       },
@@ -32,7 +37,7 @@ const chapterSettingsSlice = createSlice({
          state.fontFamily = action.payload;
       },
       setTextAlign: (state, action: PayloadAction<boolean>) => {
-         state.textAlign = action.payload;
+         state.textAlignLeft = action.payload;
       }, 
       setContainerWidth: (state, action: PayloadAction<number>) => {
          state.containerWidth = action.payload;
@@ -43,5 +48,5 @@ const chapterSettingsSlice = createSlice({
    },
 });
 
-export const { setFontSize, setLineHeight, setFontFamily, setTextAlign, setContainerWidth, setParagraphSpacing } = chapterSettingsSlice.actions;
+export const { setFontSize, setAbstractSpacing, setLineHeight, setFontFamily, setTextAlign, setContainerWidth, setParagraphSpacing } = chapterSettingsSlice.actions;
 export default chapterSettingsSlice.reducer;

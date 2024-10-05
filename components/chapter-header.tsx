@@ -1,6 +1,5 @@
 'use client';
 
-import { CircleChevronLeft, CircleChevronRight, Bookmark } from 'lucide-react';
 import {
    Popover,
    PopoverContent,
@@ -9,12 +8,11 @@ import {
 import {
    Sheet,
    SheetContent,
-   SheetDescription,
    SheetHeader,
    SheetTitle,
    SheetTrigger
 } from "@/components/ui/sheet";
-import { ArrowLeft, Settings } from 'lucide-react';
+import { ArrowLeft, Bookmark, CircleChevronLeft, CircleChevronRight, Settings } from 'lucide-react';
 import { Montserrat } from "next/font/google";
 import { useEffect, useState } from "react";
 import ChapterSettings from "./chapter-settings";

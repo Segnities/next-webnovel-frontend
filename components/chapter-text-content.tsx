@@ -27,9 +27,10 @@ export default function ChapterTextContent({ text }: { text: string }) {
    const fontSize = useAppSelector(state => state.chapterSettings.fontSize);
    const lineHeight = useAppSelector(state => state.chapterSettings.lineHeight);
    const fontFamily = useAppSelector(state => state.chapterSettings.fontFamily);
-   const textAlign = useAppSelector(state => state.chapterSettings.textAlign);
+   const textAlign = useAppSelector(state => state.chapterSettings.textAlignLeft);
    const containerWidth = useAppSelector(state => state.chapterSettings.containerWidth);
    const paragraphSpacing = useAppSelector(state => state.chapterSettings.paragraphSpacing);
+   const abstractSpacing = useAppSelector(state => state.chapterSettings.abstractSpacing);
 
    const selectedFont = fonts[fontFamily as keyof typeof fonts];
    const calculateLetterSpacing = (fontSize: number, containerWidth: number): number => {
@@ -49,7 +50,6 @@ export default function ChapterTextContent({ text }: { text: string }) {
    };
 
    const autoLetterSpacing = useMemo(() => calculateLetterSpacing(fontSize, containerWidth), [fontSize, containerWidth]);
-   const autoLineHeight = useMemo(() => calculateLineHeight(fontSize), [fontSize]);
    const chapterContentStyle = useMemo(() => ({
       '--font-size': `${fontSize}px`,
       '--line-height': `${lineHeight}rem`,
@@ -57,14 +57,15 @@ export default function ChapterTextContent({ text }: { text: string }) {
       '--container-width': `${containerWidth}%`,
       '--paragraph-spacing': `${paragraphSpacing}px`,
       '--letter-spacing': `${autoLetterSpacing}em`,
+      '--text-indent': `${abstractSpacing ? '1.5rem' : '0'}`,
       fontSize: `var(--font-size)`,
       lineHeight: `var(--line-height)`,
       textAlign: `var(--text-align)`,
-      textIndent: '1.5rem',
       width: `var(--container-width)`,
       margin: '0 auto',
       letterSpacing: `var(--letter-spacing)`,
-   }), [fontSize, lineHeight, textAlign, containerWidth, paragraphSpacing]);
+      textIndent: 'var(--text-indent)',
+   }), [fontSize, lineHeight, textAlign, containerWidth, paragraphSpacing, abstractSpacing]);
 
    return (
       <>

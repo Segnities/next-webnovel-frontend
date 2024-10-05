@@ -14,7 +14,7 @@ import { Slider } from "./ui/slider";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { ScrollArea } from "./ui/scroll-area";
-import { setContainerWidth, setFontFamily, setFontSize, setLineHeight, setParagraphSpacing, setTextAlign } from "@/store/features/chapter-settings/chapterSettingsSlice";
+import { setContainerWidth, setFontFamily, setFontSize, setLineHeight, setParagraphSpacing, setTextAlign, setAbstractSpacing } from "@/store/features/chapter-settings/chapterSettingsSlice";
 
 const roboto = Roboto({ weight: ['400', '700'], subsets: ['latin'] });
 const openSans = Open_Sans({ subsets: ['latin'] });
@@ -36,7 +36,7 @@ const fonts = {
 
 
 export default function ChapterSettings() {
-   const { containerWidth, fontSize, lineHeight, textAlign, paragraphSpacing } = useAppSelector(state => state.chapterSettings);
+   const { containerWidth, fontSize, lineHeight, textAlignLeft: textAlign, paragraphSpacing, abstractSpacing } = useAppSelector(state => state.chapterSettings);
    const dispatch = useAppDispatch();
 
    return (
@@ -62,7 +62,7 @@ export default function ChapterSettings() {
             <div className="flex flex-col gap-y-3">
                <span className="text-xl">Відступ</span>
                <div className="flex flex-col p-3 rounded-lg border dark:border-silver">
-                  <RadioGroup defaultValue="on" className="flex items-center">
+                  <RadioGroup defaultValue={abstractSpacing ? 'on' : 'off'} className="flex items-center" onValueChange={(value) => dispatch(setAbstractSpacing(value === 'on'))}>
                      <div className="flex items-center space-x-2">
                         <RadioGroupItem value="on" id="r1" />
                         <Label htmlFor="r1">Включено</Label>
