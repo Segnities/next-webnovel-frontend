@@ -18,7 +18,7 @@ export default function HeaderMoreOptions() {
                <BsThreeDots />
             </span>
          </PopoverTrigger>
-         <PopoverContent className="dark:bg-charcoal">
+         <PopoverContent className="dark:bg-zinc-950">
             <nav aria-label="news question-answers feedback">
                <ul className="text-sm">
                   <li>

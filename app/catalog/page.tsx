@@ -5,6 +5,8 @@ import BgLayout from "@/components/ui/bg-layout";
 
 import catalogSection from "@/data/catalogSection/catalogSection.json";
 
+
+
 export default function CatalogPage() {
    return (
       <BgLayout>

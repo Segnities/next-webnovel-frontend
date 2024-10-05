@@ -8,7 +8,7 @@ import {
    SheetTrigger
 } from "@/components/ui/sheet";
 import { ChevronsUpDown, Menu } from "lucide-react";
-import SearchBox from "./SearchBox";
+import SearchBox from "./search-box";
 import { Button } from "@/components/ui/button";
 import {
    Collapsible,

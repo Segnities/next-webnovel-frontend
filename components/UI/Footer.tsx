@@ -2,7 +2,7 @@ import { FaOctopusDeploy } from "react-icons/fa";
 
 export default function Footer() {
    return (
-      <footer className="hidden lg:flex justify-between items-center p-4 font-medium dark:text-silver dark:bg-eerieBlack bg-white">
+      <footer className="hidden border border-zink-400 lg:flex justify-between items-center p-4 font-medium dark:text-silver dark:bg-zinc-950 bg-white">
          <div>
             <p>У випадках порушення авторських прав - звертайтеся на пошту - <span className="underline underline-offset-4">info@webuanovels.net</span></p>
             <div>
