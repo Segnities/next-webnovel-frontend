@@ -3,7 +3,7 @@
 import { Separator } from "@/components/ui/separator";
 import lastUpdatedChapters from "@/data/lastUpdatedChapters/lastUpdatedChapters.json";
 import { useState } from 'react';
-import RecentCard from './RecentCard';
+import RecentCard from './recent-card';
 
 export default function RecentlyUpdatedChaptersList() {
    const [visibleItems, setVisibleItems] = useState<number>(10);

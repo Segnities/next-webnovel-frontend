@@ -1,6 +1,6 @@
 import ContinueReading from "@/components/continue-reading";
 import Header from "@/components/header";
-import NowReading from "@/components/NowReading";
+import NowReading from "@/components/now-reading";
 import ContainerOffset from "@/components/ui/container-offset";
 import RecommendedNovelsSlider from "@/components/recommended-novels-slider";
 import RecentlyUpdatedChaptersList from "@/components/recently-updated-chapters";
